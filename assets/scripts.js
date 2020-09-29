@@ -1,5 +1,3 @@
-// Berto's initial JS
-
 document.addEventListener('DOMContentLoaded', function () {
     $(document).ready(function () {
         $('.collapsible').collapsible();
@@ -24,7 +22,6 @@ document.addEventListener('DOMContentLoaded', function () {
     // }
 });
 
-// Mark's JS start
 $(document).ready(function () {
     var muralData = murals;
     // Display map
@@ -54,8 +51,11 @@ $(document).ready(function () {
     // -- -- Lat/Lon
     // -- -- Artist name
     // -- -- Artist website
+
+    // --------------------------
     // Call Yelp API
-    var settings = {
+    // --------------------------
+    var yelpSettings = {
         url: `https://api.yelp.com/v3/businesses/search?location=${address}&radius=500`,
         method: 'GET',
         // timeout: 0,
@@ -65,12 +65,28 @@ $(document).ready(function () {
         },
     };
 
-    $.ajax(settings).done(function (yelpResponse) {
+    $.ajax(yelpSettings).done(function (yelpResponse) {
         console.log(yelpResponse);
+        var yelpData = yelpResponse;
+        var nearbyName = yelpData.businesses[0].name;
+        var nearbyType = yelpData.businesses[0].categories[0].title;
+        var nearbyAddress = yelpData.businesses[0].location.display_address[0];
     });
-    // -- Pass lat/lon through
-    // -- Request nearby attractions based on filters
+
+    // Request nearby attractions based on filters
+
+    // -------------------------
     // Call Wiki API
+    //--------------------------
+    // var wikiSettings = {
+    //     url: `http://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${artistName} ${muralName} Richmond mural&format=json`,
+    //     method: 'GET',
+    //     timeout: 0,
+    // };
+
+    // $.ajax(settings).done(function (wikiResponse) {
+    //     console.log(wikiResponse);
+    // });
     // -- Pass artist name through
     // -- Request background
     // Call Clearbit API
