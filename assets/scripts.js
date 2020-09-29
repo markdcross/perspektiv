@@ -33,21 +33,28 @@ $(document).ready(function () {
     // -- For each mural, see if name/address matches
     // -- -- If so:
     // -- Capture values for subsequent API calls
-
+    // for (var i=0; i < muralData.length; i++)
+    // Capture and display mural address
     var address = muralData[1].address;
     console.log('address:' + address);
+    // Capture and display mural name
     var muralName = muralData[1].name;
     console.log('name: ' + muralName);
+    // Capture and display 
     var muralLoc = muralData[1].ExtendedData.Data[1].value;
     console.log('loc: ' + muralLoc);
+    // Capture and display
     var artistName = muralData[1].ExtendedData.Data[3].value;
     console.log('artist: ' + artistName);
+    $('#artist-info').text(`Artist: ${artistName}`);
+    // Capture and display
     var artistWebsite = muralData[1].ExtendedData.Data[5].value;
     console.log('website: ' + artistWebsite);
-    var muralImg = muralData[1].ExtendedData.Data[6].value._cdata;
+    // Capture and display
+    var muralImg = muralData[1].ExtendedData.Data[6].value.__cdata;
     console.log('Img: ' + muralImg);
-    var img = $(`<img src=${muralImg}>`);
-    $('.display').append(img);
+    $('#mural-img').attr('src', muralImg);
+
     // -- -- Lat/Lon
     // -- -- Artist name
     // -- -- Artist website
