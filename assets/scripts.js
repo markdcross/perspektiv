@@ -78,18 +78,36 @@ $(document).ready(function () {
     // -------------------------
     // Call Wiki API
     //--------------------------
-    // var wikiSettings = {
-    //     url: `http://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${artistName} ${muralName} Richmond mural&format=json`,
-    //     method: 'GET',
-    //     timeout: 0,
-    // };
+    var wikiSettings = {
+        url: `http://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${artistName} ${muralName} Richmond mural&format=json`,
+        method: 'GET',
+        timeout: 0,
+    };
 
-    // $.ajax(settings).done(function (wikiResponse) {
-    //     console.log(wikiResponse);
-    // });
+    $.ajax(wikiSettings).done(function (wikiResponse) {
+        console.log(wikiResponse);
+    });
     // -- Pass artist name through
     // -- Request background
-    // Call Clearbit API
+
+    // -------------------------
+    // Call Reverse Image Search
+    // -------------------------
+    var revImgSettings = {
+        async: true,
+        crossDomain: true,
+        url: `https://google-reverse-image-search.p.rapidapi.com/imgSearch?url=%2524%257B${muralImg}%257D`,
+        method: 'GET',
+        headers: {
+            'x-rapidapi-host': 'google-reverse-image-search.p.rapidapi.com',
+            'x-rapidapi-key':
+                'b78b7eaf24mshbb9e20b44638996p182258jsn2d00091715f3',
+        },
+    };
+
+    $.ajax(revImgSettings).done(function (revImgResponse) {
+        console.log(revImgResponse);
+    });
     // -- Pass artist website through
     // -- Request logo
 });
