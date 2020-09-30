@@ -6,24 +6,13 @@ document.addEventListener('DOMContentLoaded', function () {
     $(document).ready(function () {
         $('.modal').modal();
     });
-
-    // Map marker test
-    // $(".test").click(function () {initMap();});
-
-    // function initMap() {
-    //   var uluru = {lat: -25.363, lng: 131.044};
-    //   var map = new google.maps.Map(document.getElementById('map'), {
-    //     zoom: 4,
-    //     center: uluru
-    //   });
-    //   var marker = new google.maps.Marker({
-    //     position: uluru,
-    //     map: map
-    //   });
-    // }
 });
 
 $(document).ready(function () {
+    // ---------------------
+    // Global variables
+    // ---------------------
+
     // ---------------------
     // Pull values from murals.json for API calls
     // ---------------------
@@ -31,7 +20,6 @@ $(document).ready(function () {
     // for (var i = 0; i < muralData.length; i++)
     // Capture and display mural address
     var address = muralData[1].address;
-    console.log(address);
     // Capture and display mural name
     var muralName = muralData[1].name;
     // Capture and display mural location
@@ -44,6 +32,42 @@ $(document).ready(function () {
     var artistWebsite = muralData[1].ExtendedData.Data[5].value;
     // Capture and display mural image
     var muralImg = muralData[1].ExtendedData.Data[6].value.__cdata;
+
+    // ------------------
+    // Populate map pins
+    // ------------------
+    var mymap = L.map('map-content').setView([51.505, -0.09], 13);
+
+    L.tileLayer(
+        'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}',
+        {
+            attribution:
+                'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+            maxZoom: 18,
+            id: 'mapbox/streets-v11',
+            tileSize: 512,
+            zoomOffset: -1,
+            accessToken:
+                'pk.eyJ1IjoibWFya2Rjcm9zcyIsImEiOiJja2ZwajI1ZDUyN2I4MnJtandkYXNjNXptIn0.mPbQse36k0Mm_rvvmVMAmQ',
+        }
+    ).addTo(mymap);
+    // TODO: Use Nominatim API for geocoding
+    // $(".test").click(function () {initMap();});
+    // function initMap() {
+    //     // for (var i = 0; i < muralData.length; i++) {
+    //     var uluru = { lat: -25.363, lng: 131.044 };
+    //     var map = new google.maps.Map(document.getElementById('map'), {
+    //         zoom: 4,
+    //         center: uluru,
+    //     });
+    //     var marker = new google.maps.Marker({
+    //         position: uluru,
+    //         map,
+    //         title: 'Test marker',
+    //     });
+    //     // }
+    // }
+    // initMap();
 
     // --------------
     // Populate DOM
@@ -71,14 +95,13 @@ $(document).ready(function () {
         $.ajax(yelpSettings).done(function (yelpResponse) {
             for (var j = 0; j < 5; j++) {
                 var yelpData = yelpResponse;
-                console.log(yelpResponse);
                 var nearbyName = yelpData.businesses[j].name;
-                console.log('nearby: ' + nearbyName);
                 var nearbyType = yelpData.businesses[j].categories[0].title;
                 var nearbyAddress =
                     yelpData.businesses[j].location.display_address[0];
+                var nearbyRate = yelpData.businesses[j].rating;
                 $('#yelpEl').append(
-                    `<table><tr><td>${nearbyName}</td><td>${nearbyType}</td><td>${nearbyAddress}</td></tr></table>`
+                    `<table><tr><td>${nearbyName}</td><td>${nearbyType}</td><td>${nearbyRate}</td><td>${nearbyAddress}</td></tr></table>`
                 );
             }
         });

@@ -12,6 +12,12 @@
             rel="stylesheet"
         />
         <link
+            rel="stylesheet"
+            href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+            integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+            crossorigin=""
+        />
+        <link
             href="./assets/style.css"
             type="text/css"
             rel="stylesheet"
@@ -52,7 +58,7 @@
             </div>
         </nav>
 
-        <iframe
+        <!-- <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101245.48091818624!2d-77.43867520655097!3d37.533352924159345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b111095799c9ed%3A0xbfd83e6de2423cc5!2sRichmond%2C%20VA!5e0!3m2!1sen!2sus!4v1601169656943!5m2!1sen!2sus"
             width="100%"
             height="450"
@@ -61,7 +67,12 @@
             allowfullscreen=""
             aria-hidden="false"
             tabindex="0"
-        ></iframe>
+            id="map"
+        ></iframe> -->
+        <!-- --- -->
+        <!-- Map -->
+        <!-- --- -->
+        <div class="map-div" id="map-content"></div>
         <ul class="collapsible">
             <li>
                 <div class="collapsible-header">
@@ -107,9 +118,7 @@
                     <i class="material-icons">photo_size_select_actual </i
                     >POINTS OF INTEREST
                 </div>
-                <div class="collapsible-body" id="yelpEl">
-                    <span>Lorem ipsum dolor sit amet.</span>
-                </div>
+                <div class="collapsible-body" id="yelpEl"></div>
             </li>
         </ul>
 
@@ -138,9 +147,16 @@
         crossorigin="anonymous"
     ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script
+        src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""
+    ></script>
     <!-- <script src="js/init.js"></script> -->
-    <!-- <script async defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk">
-    </script> -->
+    <!-- <script
+        async
+        defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk"
+    ></script> -->
     <script src="./assets/scripts.js"></script>
 </html>
