@@ -38,12 +38,19 @@ $(document).ready(function () {
     var muralLoc = muralData[1].ExtendedData.Data[1].value;
     // Capture and display artist name
     var artistName = muralData[1].ExtendedData.Data[3].value;
+
     $('#artist-info').text(`Artist: ${artistName}`);
     // Capture and display artist website
     var artistWebsite = muralData[1].ExtendedData.Data[5].value;
     // Capture and display mural image
     var muralImg = muralData[1].ExtendedData.Data[6].value.__cdata;
+
+    // --------------
+    // Populate DOM
+    // --------------
+    $('#artist-info').text(`Artist: ${artistName}`);
     $('#mural-img').attr('src', muralImg);
+
     // -- -- Lat/Lon
 
     // --------------------------
