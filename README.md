@@ -12,3 +12,12 @@ THEN the information updates
 WHEN I click on a header
 THEN the corresponding information collapses
 SO that I can easily view the next location
+
+# APIs
+
+-   Nominatum for OpenStreetMap
+-   Yelp
+
+# Future Dev
+
+-   Resolve CORS issues and remove proxy
