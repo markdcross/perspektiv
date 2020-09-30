@@ -31,6 +31,7 @@ $(document).ready(function () {
     // for (var i = 0; i < muralData.length; i++)
     // Capture and display mural address
     var address = muralData[1].address;
+    console.log(address);
     // Capture and display mural name
     var muralName = muralData[1].name;
     // Capture and display mural location
@@ -47,29 +48,36 @@ $(document).ready(function () {
 
     // --------------------------
     // Call Yelp API
+    // TODO: Unsure why we're getting CORS errors sporadically from local and github pages
     // --------------------------
-    // function yelpAPI() {
-    var yelpSettings = {
-        url: `https://api.yelp.com/v3/businesses/search?location=${address}&radius=500`,
-        method: 'GET',
-        headers: {
-            Authorization:
-                'Bearer VJmUSOlUKe1A9ZWkT-vaXD5r7SBOaEQij7d33Tjlcmw6yNPqInDhIVGoPXeLvMA8TSHWRGQEenRv0mKtq4CmxUKbWSOAh30oAtt71oAwLYg-xJNUulBSvIE6IXZzX3Yx',
-        },
-    };
+    // TODO: Tuck this in a click event (map pin) to call based on this.address
+    function yelpAPI() {
+        var yelpSettings = {
+            url: `https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?location=${address}&radius=500`,
+            method: 'GET',
+            headers: {
+                Authorization:
+                    'Bearer VJmUSOlUKe1A9ZWkT-vaXD5r7SBOaEQij7d33Tjlcmw6yNPqInDhIVGoPXeLvMA8TSHWRGQEenRv0mKtq4CmxUKbWSOAh30oAtt71oAwLYg-xJNUulBSvIE6IXZzX3Yx',
+            },
+        };
 
-    $.ajax(yelpSettings).done(function (yelpResponse) {
-        // for (var j = 0; j < muralData.length; i++)
-        var yelpData = yelpResponse;
-        console.log(yelpResponse);
-        var nearbyName = yelpData.businesses[0].name;
-        console.log('nearby: ' + nearbyName);
-        var nearbyType = yelpData.businesses[0].categories[0].title;
-        var nearbyAddress = yelpData.businesses[0].location.display_address[0];
-    });
-    // Request nearby attractions based on filters
-    // }
-    // yelpAPI();
+        $.ajax(yelpSettings).done(function (yelpResponse) {
+            for (var j = 0; j < 5; j++) {
+                var yelpData = yelpResponse;
+                console.log(yelpResponse);
+                var nearbyName = yelpData.businesses[j].name;
+                console.log('nearby: ' + nearbyName);
+                var nearbyType = yelpData.businesses[j].categories[0].title;
+                var nearbyAddress =
+                    yelpData.businesses[j].location.display_address[0];
+                $('#yelpEl').append(
+                    `<table><tr><td>${nearbyName}</td><td>${nearbyType}</td><td>${nearbyAddress}</td></tr></table>`
+                );
+            }
+        });
+        // Request nearby attractions based on filters
+    }
+    yelpAPI();
     // -------------------------
     // Call Wiki API
     //--------------------------
