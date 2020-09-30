@@ -31,18 +31,26 @@ $(document).ready(function () {
     // for (var i = 0; i < muralData.length; i++)
     // Capture and display mural address
     var address = muralData[1].address;
+    console.log(address);
     // Capture and display mural name
     var muralName = muralData[1].name;
     // Capture and display mural location
     var muralLoc = muralData[1].ExtendedData.Data[1].value;
     // Capture and display artist name
     var artistName = muralData[1].ExtendedData.Data[3].value;
+
     $('#artist-info').text(`Artist: ${artistName}`);
     // Capture and display artist website
     var artistWebsite = muralData[1].ExtendedData.Data[5].value;
     // Capture and display mural image
     var muralImg = muralData[1].ExtendedData.Data[6].value.__cdata;
+
+    // --------------
+    // Populate DOM
+    // --------------
+    $('#artist-info').text(`Artist: ${artistName}`);
     $('#mural-img').attr('src', muralImg);
+
     // -- -- Lat/Lon
 
     // --------------------------
