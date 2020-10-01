@@ -12,29 +12,30 @@ $(document).ready(function () {
     //* ---------------------
     //* Global variables
     //* ---------------------
+    var theMap;
     //* Pull values from murals.json for API calls
     var muralData = murals;
     // Capture and display mural address
-    var address = muralData[1].address;
+    var address = muralData[26].address;
     // Capture and display mural number
-    var muralNum = muralData[1].ExtendedData.Data[0].value;
+    var muralNum = muralData[26].ExtendedData.Data[0].value;
     // Capture and display mural name
-    var muralName = muralData[1].name;
+    var muralName = muralData[26].name;
     // Capture and display mural location
-    var muralLoc = muralData[1].ExtendedData.Data[1].value;
+    var muralLoc = muralData[26].ExtendedData.Data[1].value;
     // Capture and display artist name
-    var artistName = muralData[1].ExtendedData.Data[3].value;
+    var artistName = muralData[26].ExtendedData.Data[3].value;
     // Capture and display artist website
-    var artistWebsite = muralData[1].ExtendedData.Data[5].value;
+    var artistWebsite = muralData[26].ExtendedData.Data[5].value;
     // Capture and display mural image
-    var muralImg = muralData[1].ExtendedData.Data[6].value.__cdata;
+    var muralImg = muralData[26].ExtendedData.Data[6].value.__cdata;
 
     //* ---------------------
     //* Populate map and pins
     //* ---------------------
     // Creates the map on the page
     function mapInit() {
-        var theMap = L.map('map-content').setView([37.5386, -77.4318], 13);
+        theMap = L.map('map-content').setView([37.5386, -77.4318], 13);
         // Adds tile layer to the map
         L.tileLayer(
             'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}',
@@ -51,7 +52,40 @@ $(document).ready(function () {
         ).addTo(theMap);
     }
     mapInit();
-    //* Use forward reverse geocoding for geocoding
+
+    //* Use Nominatim API for geocoding
+    function generatePins() {
+        // Passes each mural address into the query URL
+        var nominUrl = `https://cors-anywhere.herokuapp.com/https://nominatim.openstreetmap.org/search/${address}?format=json&addressdetails=1`;
+        // Ajax call to Nominatim
+        $.ajax({
+            url: nominUrl,
+            method: 'GET',
+        }).then(function (latlonResponse) {
+            results = latlonResponse;
+            // Capture lat for each mural
+            var lat = results[0].lat;
+            console.log(lat);
+            // Capture lon for each mural
+            var lon = results[0].lon;
+            console.log(lon);
+            // Place a marker for each mural from lat/lon
+            console.log(muralImg);
+            var marker = L.marker([lat, lon])
+                .addTo(theMap)
+                // * Click event for map pins
+                .on('click', function (e) {
+                    // Accesses the mural number
+                    console.log(this._popup._content);
+                })
+                //TODO: Image overflows popup, img is larger than map div
+                .bindPopup(
+                    `<img src=${muralImg}> Artist: ${artistName}; <br> Location: ${muralLoc};`
+                );
+        });
+    }
+    generatePins();
+    //* ALTERNATIVE - Use forward reverse geocoding for geocoding
     // function generatePins() {
     //     // Loop through murals.json to call for lat/lon of each mural (from mural address)
     //     for (var i = 0; i < muralData.length; i++) {
@@ -90,33 +124,6 @@ $(document).ready(function () {
     //                 .openPopup();
     //         });
     //     }
-    // }
-    // //* Use Nominatim API for geocoding
-    // function generatePins() {
-    //     // Passes each mural address into the query URL
-    //     var nominUrl = `https://cors-anywhere.herokuapp.com/https://nominatim.openstreetmap.org/search/21 N. Belmont Ave. Richmond, VA?format=json&addressdetails=1`;
-    //     // Ajax call to Nominatim
-    //     $.ajax({
-    //         url: nominUrl,
-    //         method: 'GET',
-    //     }).then(function (latlonResponse) {
-    //         results = latlonResponse;
-    //         // Capture lat for each mural
-    //         var lat = results[0].lat;
-    //         console.log(lat);
-    //         // Capture lon for each mural
-    //         var lon = results[0].lon;
-    //         console.log(lon);
-    //         // Place a marker for each mural from lat/lon
-    //         var marker = L.marker([lat, lon])
-    //             .addTo(theMap)
-    //             // * Click event for map pins
-    //             .on('click', function (e) {
-    //                 console.log(this);
-    //             })
-    //             .bindPopup(muralNum)
-    //             .openPopup();
-    //     });
     // }
 
     //* --------------------------

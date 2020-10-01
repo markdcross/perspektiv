@@ -17,7 +17,10 @@ SO that I can easily view the next location
 
 -   Nominatum for OpenStreetMap
 -   Yelp
+-   Wiki
+-   Reverse Image Search
+-   Forward reverse geocoding
 
 # Future Dev
 
--   Resolve CORS issues and remove proxy
+-   Resolve CORS issues and remove proxy to improve stability and performance
