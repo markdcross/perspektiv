@@ -2,6 +2,8 @@ var murals = [
     {
         "name": "21 N. Belmont Ave. Richmond, VA",
         "address": "21 N. Belmont Ave. Richmond, VA",
+        "latitude": 37.554703,
+        "longitude": -77.479123,
         "description": {
             "__cdata": "<img src=\"https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/f4nabjcl8v0egsiv4ullr9joh4/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALqMMHmxczgGZTXbnmaaI67mpGtBpNh083O7OMBQYZd3rh15H4vXgsHpKFrQ16N15NR5tr61Ndz-YM6rKJWN8F7npV5kS5eaYMnwPM8GNvApwn_Xw3hU_sFuxMsH-WkxIhv4Iw78ECVZ92pd9WUYTGU7fKcIG-iwsdonh65hAHNcbJ9FKQxI20bz-rNDiwNiYNXQnJhTokokhIs-Nm889i3_9qrwHAh5Xo2XlozR9JsV3NVrZHKH4aOqjZL7WVEe6I0D8Gm3uab0d9HBtZlMH58nROQ7Iw?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 1<br>Specific Area: Katie Blue Salon South wall<br>Description: Black and White. Train, Ram, Old Car<br>Artist: <br>Social Media: <br>Website: "
         },
@@ -41,6 +43,8 @@ var murals = [
     {
         "name": "19 N. Belmont Ave. Richmond, VA",
         "address": "19 N. Belmont Ave. Richmond, VA",
+        "latitude": 37.554588,
+        "longitude": -77.479189,
         "description": {
             "__cdata": "<img src=\"https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/mbv05tdskah93rnffi1363gijg/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALqkj09yWPBTi-IVCH0tb2y0zTWz2tbpSLo6tQfYwwALVsdsALmpmNManv-kPasAM2GMg1GmmIeBZLXabv6vpwaWzyUoOj_l72oYmMzwjxvfSpUbU54xOB9V3CY7gmuaUkcx_PfP-pYtK_3R-KxVRZ2OpCPRNwZPcoHqxqqCGS9jc9u3uGk2fN8f0PRYZ7TSE6qOw0dkbS8TnJalzUtHPVmMxKk9WyPtYmK32mo2pycS5EaIy1lTnHtdBrl76FHd9Qa0onosQ7pG7NhRyubE4625HH3MfA?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 2<br>Specific Area: Opposite Side of 1. North wall<br>Description: Colorful images of the Belmont Community and RVA<br>Artist: The Night Owl<br>Social Media: @thenightowl<br>Website: https://www.thenightowlwashere.com/about"
         },
@@ -83,6 +87,8 @@ var murals = [
     {
         "name": "8 N. Belmont Ave. Richmond, VA",
         "address": "8 N. Belmont Ave. Richmond, VA",
+        "latitude": 37.554505,
+        "longitude": -77.479235,
         "description": {
             "__cdata": "<img src=\"https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/bnreeflepksid6dhgh6b5i0dg4/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALoEASjd_x878pTKxDPrHuMWKZun2729-xI3l_XPDyw2I9dNNKLHOK1FYRQOuJph4L2rS41nnlQqKfgWCFPglsMPRlvJrpAozlyP7Bee4uvYg8GaHEqKsTSIUwAmKMVd0eznDMiBWu_EBlq935AfOs-oaZoYDd7n70ORry7kstYWze31jhHvIwSf6aKXpiMM6VQMGikJbSo1vRVK3mNy4rp1bQjTu28g-PR0po4iKl6kSdv1cAhQkn24LR7fLQm7ArjOJXC2uRccg6VBGKnMd-1C6TmvcQ?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 3<br>Specific Area: Behind Belmont Library on the side of Bear Granville Corporation<br>Description: Athena, Goddess of Wisdom & Military Strategy and Richmond Burning<br>Artist: The Night Owl<br>Social Media: @thenightowl<br>Website: https://www.thenightowlwashere.com/about"
         },
@@ -127,6 +133,8 @@ var murals = [
     {
         "name": "3201 W. Cary St. Richmond, VA",
         "address": "3201 W. Cary St. Richmond, VA",
+        "latitude": 37.553815,
+        "longitude": -77.482458,
         "description": {
             "__cdata": "<img src=\"https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/t8dcq1u9clsgf2ge8ssdlgvp9s/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALorDOz8fQ0JIqxF24GZl5hzagFHPwG2xf2oAsFaeIng51U4f7xxu6CLwWOxpMyMTxaCtQHu4KVng-FYcrtkWVbcYJ8so3gxVsrnpiAJIaMcrrOjEaU5VGyLPWmap9wvwvDoDvvHIrSPDQlntZmCwerdKOI7OPaYHnRAeNiRrZc13SO9fKqPq34sxzoi-82n0_A7buDvxqncwRCg3y_a8KQaldm6SwyIHyc49Gk3n6ARtIDfxxGJS_q9Y4zBwfgNOUuWlqCgwPSEyuRDMx2sniUJ5qMMXA?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 4<br>Specific Area: Across 711 in Carytown. Behind Wells Fargo<br>Description: Vote Blue. Not really a mural<br>Artist: <br>Social Media: <br>Website: "
         },
@@ -166,6 +174,8 @@ var murals = [
     {
         "name": "3116 W. Cary. Richmond, VA",
         "address": "3116 W. Cary. Richmond, VA",
+        "latitude": 37.553248,
+        "longitude": -77.480836,
         "description": {
             "__cdata": "<img src=\"https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/jg6m9abk0psq7h6lou5v2i8lbo/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALpizpME36wHCtggF0ScuAK9vb2TamQSiwbfhKC2mey7TV_r5h2AWIMwGT6t31nBHZENyAuMmoSrN6TevlgxGFbHFWH9HNHodqKReDFQ5zQXeGVRTcznhCScqldcc7xbNLLhR9Zv2vvVzArCHoYfWer7RYH5vikMFW7u9H98o0xuRIiuZYudslw4o7tQ6kHz1yzTbrJoMQ2lRyn6dl5a52MnZksJLkNZaphetIzprX9uPITq11ghVqsmTsaZiqroIFhOF1Xwts3jXOw7EzfXW4KqfXypLQ?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 5<br>Specific Area: Near alleyway entrance to Carytown Bicycle Company<br>Description: Cyclists Fausto Coppi, Eddy Merckx and one other<br>Artist: Ed Trask<br>Social Media: @edtrask<br>Website: "
         },
@@ -207,6 +217,8 @@ var murals = [
     {
         "name": "19 S. Belmont Ave. Richmond, VA",
         "address": "19 S. Belmont Ave. Richmond, VA",
+        "latitude": 37.553409,
+        "longitude": -77.479862,
         "description": {
             "__cdata": "<img src=\"https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/m9u5l30nfgleofv57tsmi428k8/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALr75tP3i3e5tRFp7jH9mgcY_8g0jGJrgE_PWyuIalreOoTC8RemCQ3JnGXUGeo1-jV1NrECfg7nWiM_I3a2vkOvCQdUc9uBXHw9fCLfCncZTJhhZRz26fMDTBzrtKYtvIOJkbPSz6P4xTomzQEeyztfE2pBFaf3qVI8sU9V6BWgfjWlIKp5C6rzwUSLRKGgn8MXn--dxlAQNHx1AesmGCsuh0En64j0x2znB484b_3CKbm2HoOC0nKdX16IuvM_-afBgntS1X_BUUWdeFLbp9kM1Rtnfg?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 6<br>Specific Area: South wall<br>Description: Blue Man with Outstretched Arm<br>Artist: TAYLOR WHITE<br>Social Media: <br>Website: "
         },
@@ -247,6 +259,8 @@ var murals = [
     {
         "name": "19 S. Belmont Ave. Richmond, VA",
         "address": "19 S. Belmont Ave. Richmond, VA",
+        "latitude": 37.553409,
+        "longitude": -77.479862,
         "description": {
             "__cdata": "<img src=\"https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/cni1ofslr6eoe1lj93sq21kl3o/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALrqrSFioWUvC5WBQ5NuNKBzjsj41UWX3THcD5sTu7JxtH1c9uKqofDKVZVVg0-c5Y9fv7PE0YpA8CbVa6vyV-Bz1cn4uLrbLN6qp_Sy0ckA1uDNbNZU9d-2LvSn8JXFC94c-onntKxpBAK9HoKvJfYmUms8iSHquu1qqb2qXzd_gnsbN2ssUulhYFUti8MfnQjWRjSMp6nb2MyeswjF05vKoCy1cTyta3q1Koc8BxoqUUMvCJSHGNcroBFohlZbr8rSC3To5ZVNAgVowirsGUGDlJx05g?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 7<br>Specific Area: North wall<br>Description: Woman in Blue<br>Artist: TAYLOR WHITE<br>Social Media: <br>Website: "
         },
@@ -287,6 +301,8 @@ var murals = [
     {
         "name": "3024 W. Cary Richmond, VA",
         "address": "3024 W. Cary Richmond, VA",
+        "latitude": 37.552861,
+        "longitude": -77.479726,
         "description": {
             "__cdata": "<img src=\"https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/pqqd0fc3ip60ivsdojufqkp0ds/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALqXzeAudu_VA9U3YobQJQQZNKip7UMumdYaaqiVTvTdJKkIqqocS7RoG9ut8azXANbRZvn257gnvUECohoqF6F5Ksp4lM6gI9wBS0Yh5GLY7Y5RaYDx603q4Z9sGxax8rlwDvlV49YHBlQfUevmuFeLRy95GxiuMYdT2KIeGGQlAbrx9d7szsFqw0tllAtGz1bbRgpxG7yt6XrkHlhZfbTIES3lzm3XZJy4b6CVB4ruInokrIu1zrCSbDc0LIdzRYbunvfRxx_wGo3-nbxZcOnJtBdjxg?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 8<br>Specific Area: Back wall of Clover<br>Description: Bird in Plants<br>Artist: Emma Scarvey<br>Social Media: <br>Website: "
         },
@@ -327,6 +343,8 @@ var murals = [
     {
         "name": "3010 W Cary St. Richmond, VA",
         "address": "3010 W Cary St. Richmond, VA",
+        "latitude": 37.552677,
+        "longitude": -77.479215,
         "description": {
             "__cdata": "<img src=\"https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/pstb91dnnc0eqjef35ofkbf0os/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALpCqGxMQzlm0Z2nkG5mcSSNdMNK_1A9yuvZv89Y9F4lzbgtWYGuWrth4OQdKrTLgvLFwNB-LSIHY4GaOeul7QmChdUteqeJ9pPRRpxII3IEPXVPZMdPkqIFC4w3JdpvU9msSxKiKVd9MyoNyw_xD9t9tXPF_reMJS-nq_2ebEIH1l892G5RiS_36rnRt9PPw3QjtkfVPx6tYypnskr0f2J_Z1vBNrbPgUWYSgZlWqkUasZI3Vg39B98yge6ccZ97irI-HjbgBKxJOkGgjWHGeFdcJz-gQ?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 9<br>Specific Area: Back wall of Mellow Mushroom<br>Description: Witch<br>Artist: The Night Owl<br>Social Media: @thenightowl<br>Website: https://www.thenightowlwashere.com/about"
         },
@@ -369,6 +387,8 @@ var murals = [
     {
         "name": "12 S. Sheppard Richmond, VA",
         "address": "12 S. Sheppard Richmond, VA",
+        "latitude": 37.553113,
+        "longitude": -77.478496,
         "description": {
             "__cdata": "<img src=\"https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/f70t7eieh7j87clckdlb7ue0k8/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALqNlOc2XwlPLytTG6UUEanrcIRLPQQDIkncnWv0aScg4mz86MTEnloteOIcbkBfEMRb8rLG5CbHUh53JJOZSvDaUXijM3ZIa2drlpO8CQDnAPrtRA4k9mbrO5fRx93H_Jbl6lvoDZ_2k4hlNQLc7Yl7ViO-QCUX-0VTRGIqplg5CkLq3uJ-1M2Z3Vbz1JPqnzvqRCM6WwJeLGNgFAa0udnH6wnGAaYohke6VJk8BtFccEvV9qBNmhUthLXAsqwpisV_ZTWX9bVQ7OpBgP2ZK_R-rFD3bg?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 10<br>Specific Area: South wall<br>Description: Woodstock Bird from Peanuts, Charlie Brown<br>Artist: David Flores<br>Social Media: <br>Website: "
         },
@@ -409,6 +429,8 @@ var murals = [
     {
         "name": "2933 W. Cary St. Richmond, VA",
         "address": "2933 W. Cary St. Richmond, VA",
+        "latitude": 37.552485,
+        "longitude": -77.47872,
         "description": {
             "__cdata": "<img src=\"https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/v2ntpgkllklm69rqk5j6hsn2bo/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALosc-iZ80UbQA7J6xMRF8gC-8o6_u2x6UknzGno6VW3j4jHSavGFhzZV5tOdqbyo2pCE8n_ctPdhSHGr1XXd65porDmiVvumwY0ZD9FD78YjLuYvqBANS9N0fSb7k_gXw-hMyBgdvPu9GYHR4PnkmPNbXxPCN4RD1ppHsXIfSXKaOofytLyKIpD_0_7WHiqLvqZyWRmgAk4N_Y3lq_CX9KaSWDkDB4F6bnzmUJ1gQGv4NYiSTonjGOOpvk4gATFsB46OsiLxZUsAgV1FfVGJ6DnCCNlPQ?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 11<br>Specific Area: West wall of Capital One Cafe. Corner of Cary and Sheppard.<br>Description: Cityscape and Fireworks<br>Artist: Chris Milk Hulbert<br>Social Media: <br>Website: "
         },
@@ -449,6 +471,8 @@ var murals = [
     {
         "name": "3001 Parkwood Ave. Richmond, VA",
         "address": "3001 Parkwood Ave. Richmond, VA",
+        "latitude": 37.551728,
+        "longitude": -77.479288,
         "description": {
             "__cdata": "<img src=\"https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/hhtvrjrep962rsvp0lvvijitsk/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALoQyYGStVe4JD1-mCqXkh-YCmTPb_8rqE-pcxOC_Luwc2xq4mOvCla-n_R_rB-Gbq6gXTjm5DKQ-G6C2TpEdnIrv90JO9a1m-b9YVWgyTEQekilY9C_ex-RViiOER70mlr1C5itJPGOkWPzpqf6L4dgmfBxbjPj7EPfqYfqrsY0xwdV0JnBPzkvSnCmSLs0r6mp4S0j8iYjUIxCb18KtL9IMy1rbM7rmYzGT42uM1IQob8iQMCKGmKE4Iv2bK2ljq4Pajx-JotjunMKeqnHE4c_FAmJEg?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 12<br>Specific Area: Shed behind house. Behind World of Mirth<br>Description: Smiling eagle and peaceful American flag<br>Artist: Hamilton Glass<br>Social Media: <br>Website: <br><br><img src=\"https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/ajjiuenkeuuprllu4pv1ih7kl4/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALqvP3kUQ9uDVKnFoPGfIbLEqtMi1N-3nYrj6Q7hY8-f0yqs1AEUeySZ1KNVMJJlOAHQ5hpyPhQaiu6oUJJ-HMM4YE68PwuEtA3TXKLOCWja6bCZwKOZ0V1ednpAvcoH9UGfgR7qimuMNNZJzV8VVX0pcY7kqXIZg9LlCoYX1il0ybqUB4Ozr0a0sVQO3Pz9A2RkgzozFAlBcqCMoSivVdjobtRIpbQwnsWkD3BuyReylOqCnNT7q2pQPbAWoEChM05AlCGzldr_TMRcSlRxw1ZS42ZbdA?session=0&fife\" height=\"200\" width=\"auto\" />"
         },
@@ -489,6 +513,8 @@ var murals = [
     {
         "name": "2907 W. Cary St. Richmond, VA",
         "address": "2907 W. Cary St. Richmond, VA",
+        "latitude": 37.552213,
+        "longitude": -77.477993,
         "description": {
             "__cdata": "<img src=\"https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/8lgl9fnlj1ed2to7vduhp4hg0s/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALpP9TAnWIwECnp_ja0Y7I3uYj_7gj3dV6NAw0hY2zJZgb2UBBaX_IHlhvL4v7dvgg1zMfqM-iQhOSwfzaDeE5MY49JYIewI172spcbzHRcuShzlD10nMkm8ATMTU99dXn7XVDQdP8hU2affvtaeVzV-9SxWP-VjbL01_nI6nfPYesgcfI0ArqTKkNbLBS-CzaPbg7LsC6MjlQQh_uUsS_WIcPU_O6DUAKDcBhZNjKsBWM0bN7DfU-TDGyzkoYDavD9UPpCkLbka1xAEi1zpUYMz35Dfag?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 13<br>Specific Area: East wall of Citizen Burger<br>Description: Smiley Child with Bird on Head<br>Artist: SONNI<br>Social Media: <br>Website: "
         },
@@ -529,6 +555,8 @@ var murals = [
     {
         "name": "2907 W. Cary St. Richmond, VA",
         "address": "2907 W. Cary St. Richmond, VA",
+        "latitude": 37.552213,
+        "longitude": -77.477993,
         "description": {
             "__cdata": "<img src=\"https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/lvhqjpacp7359k9oknkbt17npg/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALpQspMgCV8TZLTrumn_k54WPom61U5_ISM9RNYRYyUfTpw-Vu9kXkuFgkSqzjQyXIN9PS8wfWiN9B71UK4wizoHSe6HymuiOO5X1eVa78BJl8GMruGM4SgbevJp3VwscUXVTjot5ndjAOaRtRHBRTsXszAhAr9_JUdtOGrsKcYnSSYytXEfAQOB6Yg31tI-CgTIETSaxXSzwUSXxpqRXAQ6BvxGhLoi4Ebgbwe27Lngj15LTk9dYEinvmODSEvG1N594kyAWpGZ0e6Upbvu9IXyhOr9FA?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 14<br>Specific Area: Same East wall of Citizen Burger<br>Description: Whale and Ocean Scene<br>Artist: VCU Arts Students <br>Social Media: <br>Website: <br><br><img src=\"https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/u6m2fpmk7907h94l145jbfps04/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALpdQE7XVVYfnhYpIttiqF4_qtdTWQdj5WrDcqrDn0V_J3XjSvsIjrgnXZF5n1hVBC891kZKjiI0OnN-ZOFbdW-CVxhZ48pux4gklEtSGxcnGX-Qt8WKWa6ADGUD7zxO9skmkZSPDxxpndrH5swyFfxfmM4zz7KQkMhofNRk0fqvxAminiUenfps0SdPa9_39aCuAoRlf4OtyXNLS7H0NMqmGtO0jTRKakj9yRxk2KR7XVPr8Rx8aYkGwVLITAIikE_ScUDdnrhU--IbUVVQaY_eTR7Ftg?session=0&fife\" height=\"200\" width=\"auto\" />"
         },
@@ -569,6 +597,8 @@ var murals = [
     {
         "name": "2901 W. Cary St. Richmond, VA",
         "address": "2901 W. Cary St. Richmond, VA",
+        "latitude": 37.552057,
+        "longitude": -77.477563,
         "description": {
             "__cdata": "<img src=\"https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/psuf1u6t8qttb14inf0l193dtg/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALrMjiLzqHDeScI99CfrQRlYQAWL1u6D5eeoCA7yxnuaVXGljW-Yvcvxi2Lgr1u7I7IjOx2aveJVpBDr-NwkefrpzCHGPv4eSYWHQyf06uXURsj1sr4jDNXaw-pNMdGyNHRGEbm9w8dVqFotX53ndPXNlawFiGDpM0mYRbdv6KykLvFfh1JHVU4bmq-AjVq-AwZ2rhPAPqIV_hI1crjC8fIKB-Y5LczxQK3XsGUFUWpDFObA8T7vZ8lAZyfxvfVEPW3YbcL5df4z5UtYIxAVHru6gM6nyA?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 15<br>Specific Area: Asian Shaman in Mountains<br>Description: Asian Shaman in Mountains<br>Artist: Humble<br>Social Media: <br>Website: "
         },
@@ -609,6 +639,8 @@ var murals = [
     {
         "name": "104 S. Colonial Ave. Richmond, VA",
         "address": "104 S. Colonial Ave. Richmond, VA",
+        "latitude": 37.551728,
+        "longitude": -77.477466,
         "description": {
             "__cdata": "<img src=\"https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/ggil3mjrrt1gbv6mboqpnct2r8/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALr-M7PN_UNfswswxengr3ja7oZqeT0owKUwJ2rqNYuxoUCjkqRU_zwTuPQTR42zrzFs0uRiXVaGxCMdYirETCRrFIom3AkCUI1rYdn7JqVxKn3t-Oa3IYZjr0N7QSAvHfYtQJpbEiRCCTWt8yaDuru-DwyThfUmAwYdjri58Cb0l_V9rbewm3fD4blvnwCNgBn7OrCKjkQ7Zzi1raWn6D0QUJeQSfs7GDPaQZG5Dd5Ga_exTNbOhT2-o_kNSKBOV7kXGZDwNnK5uSXsVlF00fhxUNHSpA?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 16<br>Specific Area: North wall<br>Description: Skeleton and Dogs<br>Artist: SMITHE<br>Social Media: <br>Website: "
         },
@@ -649,6 +681,8 @@ var murals = [
     {
         "name": "2631 W. Cary St. Richmond, VA",
         "address": "2631 W. Cary St. Richmond, VA",
+        "latitude": 37.551135,
+        "longitude": -77.474989,
         "description": {
             "__cdata": "<img src=\"https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/282471djosah9jdjtvotn78u58/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALrMdgPSiaMamQ1qKsNbN8-ko2pYZHB4-QLU9pUpSnUqMyGx1Jef28ZG_T7ojhXDc7owAP2DHGm05nBUawpSzCEZoeq-fgGi-cyQ58OZZ-RGKtj4ue43ITeeMMcNlHiscbIkqJVqT_oSpO4rk5-SPHeS875iR6iYXmAghMSyuMLwQd8MaLaQUNnfD6YEk3mg8LodJvGlubV2jkgz_Fh5K555zB1slRlwPKLbgLavUHze3kVadSJoQ8z7XCtxmbxR1uTFZ6VSGyqbs0I8fHQbpGuIe2srgw?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 17<br>Specific Area: West wall of Cary St. Café<br>Description: Sun and Hippie Group<br>Artist: <br>Social Media: <br>Website: "
         },
@@ -688,6 +722,8 @@ var murals = [
     {
         "name": "2614 W. Cary. Richmond, VA",
         "address": "2614 W. Cary. Richmond, VA",
+        "latitude": 37.551014,
+        "longitude": -77.47466,
         "description": {
             "__cdata": "<img src=\"https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/d05ppc7eu77oron96pgeou8i7s/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALrYnSVe9NLxnM5tiydwTxgO2z5QhwD9hsQhu0wKTn7qFHykXhOl4DZHHQr1R2SYywvk9QciaB7VgGOKRuPT0TWadVsdJkHcGOjS-JRyw2kdbkGtIvQqczRLOFKkAW3xKwEYpqW39070EFTcum1EdJWdxNYj0EAzGmWGQKK4KrMhcWjmV-r23XQk84aYVaIBsJzA8nVh9gEgOxKDuLf43GK21rVtYGp2DxVVvFr8TW3STV0vfdj4hOsfOOzaXRDVqPZFLyoAWAW9GwY5h2CB2aM93Yd6pQ?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 18<br>Specific Area: Beside Kreggers at Hand. Front loading bay. <br>Description: Pink Person Panorama<br>Artist: TAYLOR WHITE<br>Social Media: <br>Website: "
         },
@@ -728,6 +764,8 @@ var murals = [
     {
         "name": "2609 W. Cary St. Richmond, VA",
         "address": "2609 W. Cary St. Richmond, VA",
+                "latitude": 37.550871,
+        "longitude": -77.474257,
         "description": {
             "__cdata": "<img src=\"https://doc-14-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/lla8rc04d1tdumsr8vcm108lgs/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALpZ_3xuUKOnXGZzbSR-HVp--oaFRLom5zAjPIovLOTspuKMsgx7pOP-wv98RIQeyg_eWHs91Pstp0jj8pc9fqy7Y8O5L43QnLX3D5vUSLjKu9nlrdTx3BMVOoPyg0FAe9Z-wm0DndlO3d2W72428JeJdqDmI352HAoLKIibdBAN4hmSkDodaAoP8gYC5DN4ihuEReWtMOd67reVr_b2iwMD4TMFrpJpDHpTuiDi5q6s31dSozKtILadDzj0rDt7pxLsMZd2ALhvWTE7C-oSlYytIZdx1A?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 19<br>Specific Area: Behind Building. East wall<br>Description: Serious Woman and Frightened Girl. <br>Artist: BustArt and Nils<br>Social Media: <br>Website: "
         },
@@ -768,6 +806,8 @@ var murals = [
     {
         "name": "202 S. Robinson St. Richmond, VA",
         "address": "202 S. Robinson St. Richmond, VA",
+        "latitude": 37.54962,
+        "longitude": -77.47455,
         "description": {
             "__cdata": "<img src=\"https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/95d1kofb006ivr9o0aid33qo1g/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALpUrWqC9YRU4bC3IUWXF5ZOQlNhAV7aOSABylAHBZPPrduYqt6XXDZZN9uX8HDlH_eQykXFXRsORT0RpNGdrWaV_rT9VOXzcg5xRtvmsV12wN0u8pVm9id57G4l93bmCkLC8-GS1mTcRL6ZwSIe-C-aOLE97kNLw4hgYqDdQqf4YwjLHgIeR5YDxUrjNbygZa9zrq5JQNfhUP8N8EioqMJtOd8Xa5yq7vBQRR5fC38KCX17hkQt_jX2bSKZSaVONGpdUwBqLQnPMgG3c4OGLIZ4MAi5OA?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 20<br>Specific Area: North wall of Vitality Float Spa<br>Description: Relaxing Woman<br>Artist: Nico Cathcart<br>Social Media: <br>Website: "
         },
@@ -808,6 +848,8 @@ var murals = [
     {
         "name": "206 S. Robinson. Richmond, VA",
         "address": "206 S. Robinson. Richmond, VA",
+        "latitude": 37.549523,
+        "longitude": -77.4746,
         "description": {
             "__cdata": "<img src=\"https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/tujece4124elor63vol1r9de90/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALr_OpVhXw1pJA_LGfNATcf5Ka0CF5cpPw0SfGKtN1jPQnSW9Xa8GF6euHV3gkWLpOlx6umds-qOuR0U3GolOb2wnE7aYDHL0FHBlUf0AxKDrKUWAmPVauGbvYcIuZzUF5HuELl5mGgWull4aSkPnxEjYRtuLMgHPh5xgn8geQPu_RR5f7th5ysIyiDf5haP9l2skVoQill9Eeen_NOCt4nbrHnUdnDEQv_W9Ecc5kNMxAya5G_3baMCGyFNw7AKsTz5rVhP8INssekGaDoBHWoM5JrDQw?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 21<br>Specific Area: North wall of Cask Cafe<br>Description: Abstract Bicycle<br>Artist: Chris Milk Hulbert<br>Social Media: <br>Website: "
         },
@@ -848,6 +890,8 @@ var murals = [
     {
         "name": "100 S. Addison St. Richmond, VA",
         "address": "100 S. Addison St. Richmond, VA",
+        "latitude": 37.549332,
+        "longitude": -77.470247,
         "description": {
             "__cdata": "<img src=\"https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/vmpjvj8n9npi1l4v63s98c3pb0/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALp4_pg00EVgKBhWxe2y63i4AhN1GPwl9pBjLCcEb3o4Niep6URUrybw_nCYYiK5-C3pLJV327gseUI-VVGF-e721haZ7fA1uvX0q9OdXI41wGpYVwHmv0gXnw0ZPzmwm0LVLCHYN0gTsy0fGx7Tj_5BlwQDFMasrwxim3x8XSzZsmRTSEM7KwWt1iwekleNLdIaweUyzFwS-Mouuou1_wePbLJ0re1gTou6umzl4Pyx4Nz9leQgKUzyLtz3_pc-McKgIwG2SOyO9aM6zNRNXFdl6Pe45Q?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 22<br>Specific Area: Cary St. and Addison Ave. North wall<br>Description: Purple Entanglement<br>Artist: TAYLOR WHITE<br>Social Media: <br>Website: "
         },
@@ -888,6 +932,8 @@ var murals = [
     {
         "name": "8 S. Addison. Richmond, VA",
         "address": "8 S. Addison. Richmond, VA",
+        "latitude": 37.549886,
+        "longitude": -77.469926,
         "description": {
             "__cdata": "<img src=\"https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/3gr1v30m0rli3ij027acn6u43s/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALq0PERlDZb2OXEXp-_nzEBnM5X9ye7su-UI0eobKldaW91ejzALmamC5QgG3HqELMbvuTm0CbsuCEmTEgprV6UalqivXIToOTRpJ8Au1_p5UyAk83Xv19hX2aOx55w4-7oZeKieLYiZGuBcUqEIr2uVEY-tf9tngKNTyB3PvR94LX8LkwjBCiagtcG3cBEf3N3tQf-eFJQqnawpZ-8ZX5U93WUgFWCibSa_wP1Miqs2Tan0KLZDIqA4mwPZogDMtqsOYZLRly53pymiX1i3pXPFISTmvA?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 23<br>Specific Area: North wall<br>Description: Square Face<br>Artist: bmbprf and Matt Lively<br>Social Media: <br>Website: "
         },
@@ -928,6 +974,8 @@ var murals = [
     {
         "name": "1114 W. Cary St. Richmond, VA",
         "address": "1114 W. Cary St. Richmond, VA",
+        "latitude": 37.544548,
+        "longitude": -77.456468,
         "description": {
             "__cdata": "<img src=\"https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/9rp4m2cb83ojobujmgltp32714/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALqdNS1NGiAZEivEi8JlktFCXQswTWyepJFnUytq60XY3T8akKI4vk777xD7vh_Az9ZjH13mkUefnjD9rrxXrH4479TBUgtwSKJG3GH2ppzpS5c1SK5tYCfKAvbQJgzot37ql6Rv9WTRBIAreda4FrEDJ_NAgiL4_PSTUBBuhghwB-_LBCmpPqKOjmC1Lryg6XdyINkWWKDqY3IlMqZG7m7UsarNlOiUZHEBYN_ajdnnoqsXofE7ZKiEySp8bv1gEGfre1V_eLUMoXmmvAkhw8WZPWfg9g?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 24<br>Specific Area: East wall<br>Description: Blue Haired Woman<br>Artist: The Night Owl<br>Social Media: <br>Website: https://www.thenightowlwashere.com/about"
         },
@@ -969,6 +1017,8 @@ var murals = [
     {
         "name": "821 W. Cary St. Richmond, VA",
         "address": "821 W. Cary St. Richmond, VA",
+        "latitude": 37.544505,
+        "longitude": -77.452572,
         "description": {
             "__cdata": "<img src=\"https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/4lupo7f6mertc8v75lqtkhcj0s/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALoX1VocXzRR7yMF8tA1BdvrMVXlTuT5d36UHcN_WV27NwjQRZbkoy55xp6A_dhl4AD8rjypKko2AAc38QDALvNIyJ30417v1pz2rQEs9ZllMeY-TDi10kTHd-w3xdvGc52S-THGW9ArT21cp94D3sJMwoXGcmpkWNx1MS0CobkzncolCEVUdUgOje2_k58auQ9O91xg1iYKczsUP03vMc1NsDqfty2ZNptAsyFgJe3iPlY4UMjC62wq1w2cDOVWP9tulx_AKuRqGLkEekD3LhZYtHlHwg?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 25<br>Specific Area: West wall. At intersection. 821 Café<br>Description: 821 Cafe, Black and White Man Boxing<br>Artist: Stormie Mills<br>Social Media: <br>Website: "
         },
@@ -1009,6 +1059,8 @@ var murals = [
     {
         "name": "825 W. Cary St. Richmond, VA",
         "address": "825 W. Cary St. Richmond, VA",
+        "latitude": 37.544506,
+        "longitude": -77.452714,
         "description": {
             "__cdata": "<img src=\"https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/lgiosfqa0m2fb55jbg8j04jp7g/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALo1U7Wg_Vw7ToTRc3Epzp52F5lu37mvfNHcjSdC2Lf3b1Wdc8k7Hu6Jz5JgSxnbkZQyrsKKNqbz2c-yuy6TX8hIXz0pMm0pHnLD0Vypxg_wcMYEwmAjMA86Re3JTOTAy03h7V3ZMcJ49jxOqO5S2anBU7nt08iF9V57hucBzVmF_IWVcwduw5uKywIpYd_kKtsjZVmBy5Wq3MtBE1GgeUsg_9ph4kQ1KTZFeyORbDI0YK2clGdEmAwn9MVm9WUXoRZASdBQUQVRkCSq2jGNSOPGv8p28A?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 26<br>Specific Area: Behind building. West wall<br>Description: Topless Woman - Title: Icarus Fallen<br>Artist: NILS<br>Social Media: @nilsrva<br>Website: http://nilswestergard.com/"
         },
@@ -1051,6 +1103,8 @@ var murals = [
     {
         "name": "825 W. Cary St. Richmond, VA",
         "address": "825 W. Cary St. Richmond, VA",
+        "latitude": 37.544506,
+        "longitude": -77.452714,
         "description": {
             "__cdata": "<img src=\"https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/hlj0ffbv0catgn82fgl07ab5q4/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALrvs2aP5nkXHjnltWPiChEv1n1YcPEKKYkJLVUwMEY9Zc3Fk2gjCQ9zRYbKhxCsIUXmWPzB2NHG26ScEM_ujlHHsDZFpIxok3Ct30AbPb0hcmyWsGneKC_65TyfHUdP73CAP97PPTniTl8pz-5igDRLJ_5-6t7sRS9O0_JHrxZVLZb-yeEBFxgWC7XdsQvITDSkO3Qzrd0sb0AGil4A4BVDKF77ennE-lJlOFdGZL-h7jQ8E9HaI1NWJ8t1YLNN9b6Sm2r_NmjFDNY8aItAMalNkLXzSQ?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 27<br>Specific Area: Front of building. Facing West<br>Description: Spider Witch<br>Artist: The Night Owl<br>Social Media: @thenightowl<br>Website: https://www.thenightowlwashere.com/about"
         },
@@ -1093,6 +1147,8 @@ var murals = [
     {
         "name": "609 Idlewood Ave. Richmond, VA",
         "address": "609 Idlewood Ave. Richmond, VA",
+        "latitude": 37.541821,
+        "longitude": -77.449698,
         "description": {
             "__cdata": "<img src=\"https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/df9kjrtrabujpdeffj7lojhhsc/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALp6YSih9EMRajjwDMhGTlfjf9FRbxPfXfPosGonX9dkuiaKeuSwRhCT28h8fhxh6DtLW-dE6z44fyjJQIpFOUU89NZdGghC7snibFC-LGYDXFXloW0BT9bNbfiplU38dYObldWr9aAAIaQCT_MKctNPcInGaMkaul0UIhVYD8eqlhm1niDQo4bMshepuvz6YyyQt8n6Cyv-e3nvufkg62yXGlXqc2JrniAbnpPWB22gOCzMz6pZpa9_KV-2BsDKh4D7hmzhw8QpsiDRFtNt0PV4MEjItA?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 28<br>Specific Area: East wall. First building<br>Description: Group Facing Away w/ Plant in the Middle<br>Artist: Jade Rivera<br>Social Media: <br>Website: "
         },
@@ -1133,6 +1189,8 @@ var murals = [
     {
         "name": "301 S Pine St. Richmond, VA",
         "address": "301 S Pine St. Richmond, VA",
+        "latitude": 37.541685,
+        "longitude": -77.450357,
         "description": {
             "__cdata": "<img src=\"https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/ev9j2pura6bvv61utnvh7tetv0/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALqUQ3wNvV-XGBX1N5K-F4v5lu_0fIZPnk12VSy4VbXXJ-EraK0-C_x1AbkMoybeQ5KzjbYGXvvy03oU0F5J1qwJltL_qdQ4IRcSHTFw94KTsfHtwbhhZ6cJsX0XilpINUl4w90Iqvae8vcRNb00Wi-xnTE9YxfBKz_ktdorvRiyLeBPncEi_jdWO-atOGuVrSGVZBF2Es1cIKBfFB5bysur6C3lg_uypAfw8lCORh7DHy2GfO9YzAI6Ds3ZFubaXWsNl7LurncOHiVGGIzbbeCX--Nr-A?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 29<br>Specific Area: South wall. At intersection<br>Description: Road Runner<br>Artist: JERKFACE<br>Social Media: <br>Website: "
         },
@@ -1173,6 +1231,8 @@ var murals = [
     {
         "name": "301 S. Laurel St. Richmond, VA",
         "address": "301 S. Laurel St. Richmond, VA",
+        "latitude": 37.541731,
+        "longitude": -77.451633,
         "description": {
             "__cdata": "<img src=\"https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/tl2tq6r7s63svion3nvo3ecg1c/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALoRXbAtYGNaCRXrfVuHTfqXvj3axfop9ZvIg2NjJHGGQ166hETlsze-wcPfNuKqc0Yk-j8GGhWLScd19iFx40i4kf4BNvUaPj6TZSpxJNX0bij6XhNPBHjFXozm8xW_cvdre52PtnSiTgJG2ePeboKqrz0H_tCFHvOMGUCnXvPm20AXpHwmC-nBYGlXTxYik8Fd7uN3gXzPopDjXOfRQC7ypfScz9q8Q71pv6rQDvfseFBacO6kgGTlYBimRaC9lGIJjCsfRol2nTlLTbvDlooQl3uLww?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 30<br>Specific Area: At intersection with Idlewood. North wall<br>Description: Camel with House on Back<br>Artist: EKUNDAYO<br>Social Media: <br>Website: "
         },
@@ -1213,6 +1273,8 @@ var murals = [
     {
         "name": "349 S Laurel St, Richmond, VA",
         "address": "349 S Laurel St, Richmond, VA",
+        "latitude": 37.540619,
+        "longitude": -77.451657,
         "description": {
             "__cdata": "<img src=\"https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/gbogdbglftf3hdt2pp7fnbmgcg/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALrfezXmGTXIpasLQEn3Wthd1dtu_SbFa3tcQTgeaERG-CYbZ5rvHga6NNOqqlbEsfYhmmQlG1L_5iLUJL0uSwnopvBQBs0N1zjypKWzL41HWHs-jO8AHURrSSB8ODAzTfywryapH1NAHhJMYly2yZ6Q5_bu_D7EbNWXKBRwqWmokyEjke4ine15j1HGd0ySpFeOZb6M3nVZVKRoLOexD6Zorglmj99izJYEkGzfbGKNwNopwGOxh4fbk5grFZBlDXGNp2necsMMjPOXpAd95gmTv4IXqg?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 31<br>Specific Area: Intersection of Albermarle<br>Description: Rest in Pieces<br>Artist: Sure Hand Signs<br>Social Media: <br>Website: "
         },
@@ -1253,6 +1315,8 @@ var murals = [
     {
         "name": "334 S. Pine Street, Richmond, VA",
         "address": "334 S. Pine Street, Richmond, VA",
+        "latitude": 37.540602,
+        "longitude": -77.450376,
         "description": {
             "__cdata": "<img src=\"https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/3h4lonnqv834bjc5l1njr12vdc/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALrMnPuXI5Iip6p2VRCxTqV2TlD9o14d_G6iaR2e6nCLX1FIHWqd14zyjtdkXgFcuJ7EC5WbFlBmPVEb3sMcuRIDit56JpmgZ_vINZQYcRoXhcU8yw_MEDpJQK05gjW2RqJhhNkocMcFRmCDTTcRO4dnRglL5T5DBS_NdvmsuFA7PdAWVe0hDAQcFDHTqT5vuFZXTBTSdaQeDNy9lxKSDSyRK0oUnz7-Yj5qXIQtTrf2z4rK0ISnt0PM1WNh4TsjqaN1DgAMcWZHGqxx9AqkY8j3f6rWVg?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 32<br>Specific Area: Side of Pine Street Barber Shop<br>Description: Title: Kaiya with Crown<br>Artist: NILS<br>Social Media: @nilsrva<br>Website: http://nilswestergard.com/"
         },
@@ -1295,6 +1359,8 @@ var murals = [
     {
         "name": "11 S. Foushee St. Richmond, VA",
         "address": "11 S. Foushee St. Richmond, VA",
+        "latitude": 37.542575,
+        "longitude": -77.44481,
         "description": {
             "__cdata": "<img src=\"https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/4ctag9jdas1pfdlgghpar9fdes/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALqTTXhTMfXDjoUr9KLC1c-8-GyH3t8DNAGZ4Fu04qjwYFchUs7CfJuG8BOx9eaYuXHp9v1gaG89aSGUBtn8NPLSNVcUJC4OH-ZJ1_o0e6fj_0fDVasKz1_TO4AwFQxahE1SYb8Gh4otJiRNIx30IHh3Pk1JUwum72LecKOUiEqNqWXfdv4bkVl2h9JmRh5GQNZpNQjfeBWaqzmsTfP85aE8w210mF3Sh-UFQRUY8UqUi9adkPUSizX9JrascwDRabSTD-bu9cLVVH0jj5W-tgEtYgWIhg?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 33<br>Specific Area: North wall<br>Description: Ocean Paradise - The World is Yours<br>Artist: Naturel<br>Social Media: <br>Website: "
         },
@@ -1335,6 +1401,8 @@ var murals = [
     {
         "name": "1 E. Cary St. Richmond, VA",
         "address": "1 E. Cary St. Richmond, VA",
+        "latitude": 37.542096,
+        "longitude": -77.44503,
         "description": {
             "__cdata": "<img src=\"https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/hljc415neoucgdergfcm8l7s5k/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALoOi4_2QlNkJe6uTeI0WfoFSJQoXA69PdG0ttqDaXxeNiXRzaZn74JT1lVVOTthhULP9OwrFELxAztiapZEiqiiWYEWhsEv2NPM7S_BkJLMnwP6Dt6sG-BS5IzD7wcqFYG9BOAyXuwbFAF2SKDziq-MiLy7DhSGlUrFJFGe7CM14pvYAtDYqfNMvgXFG4nralrRHbVju-3VTjtDLb_zJmyW1t3pFjCI_K8POS_NCBbUYdRZnj6CNh31t_57jISxTlOHnOZUiHTwzn954bi3u6jj55E8pg?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 34<br>Specific Area: West wall. At intersection<br>Description: Phoenix<br>Artist: MOYA<br>Social Media: <br>Website: "
         },
@@ -1375,6 +1443,8 @@ var murals = [
     {
         "name": "24 E. Cary St. Richmond, VA",
         "address": "24 E. Cary St. Richmond, VA",
+        "latitude": 37.54175,
+        "longitude": -77.444449,
         "description": {
             "__cdata": "<img src=\"https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/7v5edcj0caslahdq07f1rhrsvo/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALrB3VEsU1UMgMVRseBoi2bLTjsQLT526mCq0D2jHiqMnGpo5WvtJUNftVYkurA9aIkDHnrtm0LIWinpD78WXe_4HE1Goua--eq0waQjZVv1dM0SwZVSfv55MPL2_lZ8PFh-UbHRrK0cas_vW3ddnFtQfB--DvmktLhv_zGEtCaX1ZU5DBn3rjX_LptzQv3RAk-zvwz0S7_9OyxNnvb57ZfWC1GD-Nt02qn_IAfoLyAStZ7911wGVrZLcQjAPwDa-E9MaDhFLsVliSL8_LQSzlXNEXZUkA?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 35<br>Specific Area: West wall<br>Description: Transforming Perspectives<br>Artist: Colleen Phelon Hall and community members<br>Social Media: <br>Website: "
         },
@@ -1415,6 +1485,8 @@ var murals = [
     {
         "name": "1202 W. Main St. Richmond, VA",
         "address": "1202 W. Main St. Richmond, VA",
+        "latitude": 37.756039,
+        "longitude": -84.305343,
         "description": {
             "__cdata": "<img src=\"https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/dcfshv7ffcb1d3e1rnuthgeak8/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALoeKYygaO4NEfs6JH2y1mTkEWH20U65OrNuuxuiCpkfrs_oF2w4NEsHT1EiN-KNjQjebwEh5_jAwC47a8PrddvLdcv05NyZ1ImwPQGvKkBaBhh2IJ8KahHPi_A2O2yLX-d-BQ7dd55SadSfVdMY6kVmICZWjFVF0bP93fs1MXlhYZIIEJkveHLnrdKhhs2EvaF_9rMgPa6f0lAA5zmXKatIq0vlkVIU5jKvX1MjZh6OXJfhCIrEnw2d6rHRh2oWqOynchv_yD3GzrUNFomOWR7fHjl-2g?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 36<br>Specific Area: East wall<br>Description: Computer and arrows<br>Artist: Hamilton Glass<br>Social Media: <br>Website: "
         },
@@ -1455,6 +1527,8 @@ var murals = [
     {
         "name": "1501 W. Main St. Richmond, VA",
         "address": "1501 W. Main St. Richmond, VA",
+        "latitude": 37.547042,
+        "longitude": -77.459796,
         "description": {
             "__cdata": "<img src=\"https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/p9ltefo1ac4eluimcv478gqpmg/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALqy7qS3GNvbbTdISBPJncD5azZ3lQVUwqf5vdZnEp-AuZ0WHPHGkuRW5PNJsuZoO8yWnqgPtqgBz29LV95NzNpinYI1vtM5x8_qlhI7v_LHcqk6-m_0_ukDenmcD4DhuKxu-6FXSlXErdDQLjo6xVJe2N0CMIidcnPogkAlWlcjPYQEcyyWhe8YqMTHD_hAL8dNxzcumv1F2EJFExuxerFzVRPgXUwrtJuBq16M6jL0DdNTpLVCJUTRILvmyM9TTeMCFkYSfO4WnuCvTKtyuqPM5rI8NA?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 37<br>Specific Area: East wall of Bovine. Viewed at intersection<br>Description: American Gothic with cows<br>Artist: Ed Trask<br>Social Media: @edtrask<br>Website: "
         },
@@ -1496,6 +1570,8 @@ var murals = [
     {
         "name": "1501 W. Main St. Richmond, VA",
         "address": "1501 W. Main St. Richmond, VA",
+        "latitude": 37.547042,
+        "longitude": -77.459796,
         "description": {
             "__cdata": "<img src=\"https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/s4753hi3r23nu83mqlagst0gg0/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALpTWUzk8knmhhKdue5PqFDkLzVdRGa8jGNp50kQuNsXhTHQTWJMbQ6ll7RkUCh8kMa6lN3V4fAW8wQzMs9FANY55tKEBv3mVnI1_mJHzNjnBXcse77VLSfOO09FFwIuqZ0x3Fjf8inEgDPwzu121bh05VWIVsE2zPlkjbyCrV8doU4EfL-ZV0IYas0XIDjf0W-gaDowYFCxLEZgDmyXE72IKexrSwNDlltTC5MxoFglaQbCBs1qJvekojGUbUpl3dXLJNxXrOV6HlzfqBPPqAzx3Z5W-Q?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 38<br>Specific Area: West wall of Bovine. NOT viewed at intersection<br>Description: Eagle Pierced With Arrow<br>Artist: ROA<br>Social Media: <br>Website: "
         },
@@ -1536,6 +1612,8 @@ var murals = [
     {
         "name": "1506 W. Main St. Richmond, VA",
         "address": "1506 W. Main St. Richmond, VA",
+        "latitude": 37.547126,
+        "longitude": -77.460018,
         "description": {
             "__cdata": "<img src=\"https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/r2t12h37t6cmcfem479j35bha8/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALol9fuuPAPes3KYtR40rXNj8aJc9xwkFYXPyPS_p403ZKGL9R_l6y_laqVJncqiCszfd5eiO38MgBik15o3mw6hOKRy6LMgSHMdoh_oJuaqd0MjLKRmnC9WCTEMH92mjJcd4JGBeKJgAPMtR2F7JXv7OgZB5-LSK65Oo4NFcAwC8eLzPPjw3vdWMl8pvxOKhRyKZL62-V3BXfKkV2LV4IQbWKs2N1T864SSIVzeRCpwqyr0eFM04BqIkTkkXtkOjHzz90BsBzlQUymieepW8U2nKSrv-Q?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 39<br>Specific Area: East wall<br>Description: Shroomed Out Elephant Squeezing Arrowed Brain<br>Artist: ARYZ<br>Social Media: <br>Website: "
         },
@@ -1576,6 +1654,8 @@ var murals = [
     {
         "name": "4 N Plum St. Richmond, VA",
         "address": "4 N Plum St. Richmond, VA",
+        "latitude": 37.547466,
+        "longitude": -77.459449,
         "description": {
             "__cdata": "<img src=\"https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/cqa7femlcii8ipi79jo6dqtj28/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALquUAoqHqmt7lsoUa2ucdZnCWZNkNeR6O5awG6CQCPqK3SvxREYPLPGMJelkoZkq7ykBfAEa_Nd2bii8ycIQA3q5BXWb_HTlyBTb7BXJB_jznSPDIJWmKB6OiwrMPgbU0q0oEjYISfsDuTBFCYbEbKJyYQmU1w82hV4spHcJRTCHUyXNzecx0jYvEpK-x-iujSdKDG8Ag0fUAJkLNlm5gcVUYpwxGwTTV2w2ulTOBR9VABZwwGjGwXkb0VbjWunyofv69WKbRakJNEJDmfBV0QvQD_qMQ?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 40<br>Specific Area: South wall<br>Description: Black and White Wolf<br>Artist: JACOB EVELAND<br>Social Media: <br>Website: "
         },
@@ -1616,6 +1696,8 @@ var murals = [
     {
         "name": "1600 W Cary St. Richmond, VA",
         "address": "1600 W Cary St. Richmond, VA",
+        "latitude": 37.54642,
+        "longitude": -77.461777,
         "description": {
             "__cdata": "<img src=\"https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/fq0lt2shigfav47fume8oc52i0/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALpmk1IRG3-2UZsqf9mZSQt3rAZ8YxMbKFJemml_ekr0QrxzKw2IYv0dxJ7OlZuACA2DuwwBiGzS7ao45tSc7-fIGRRWyz8T2oigHzM5HThO41TNDZ8UNga_EgJWdDJnehB5lafFhKF5SOoj5C0VwgB8jlPVY_shOMjtZqog3CtoEyNPkajNcxz8lqx8ydxdFR1CCL6NDu99HT14VTlomKiZxFzqQDx4LpURBXM0JAqMD4R7NJwn4bLr1SaO2gQnFrrbC8zEq07hTIzHWUlqqAm3el2m4Q?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 41<br>Specific Area: The Hop (Great Pizza!)<br>Description: Hops from beer<br>Artist: Brian Smith<br>Social Media: <br>Website: "
         },
@@ -1656,6 +1738,8 @@ var murals = [
     {
         "name": "12 S Lombardy St. Richmond, VA",
         "address": "12 S Lombardy St. Richmond, VA",
+        "latitude": 37.546937,
+        "longitude": -77.461221,
         "description": {
             "__cdata": "<img src=\"https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/ehsljsvr2tu9tqek1i05s854cc/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALpy8vp65T4ZHnegIoNjOT4pQUHVDvE6GDhl9RHqc7XHTeOow1suZRrG3-vgtULyPnczBYoXvAcbsnVVZ2NgeqfK-GJzip-71u_bsDnTkhN_u-ZLtdGDP1yQEATVhMWGYJ-r2JUFYWPjPZ_FZNBqqFvf02iDufvWE3yyQu2eEavhC20Gk6H_zg3H1DjoTAI0TidKBAlqmbhmN3GXU0FwylXtW8vRceg1e0rqZ5wIubKw4WfnUIatxftgThBHv7rys1_YIYrkFKqZvdHEWJo-Rx-yKuFsgA?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 42<br>Specific Area: Behind Refuge for Men1607 W Main St. East wall. Viewed from First Alley <br>Description: Yosemite Sam and Looney Tunes<br>Artist: Hamilton Glass<br>Social Media: <br>Website: "
         },
@@ -1696,6 +1780,8 @@ var murals = [
     {
         "name": "1601 W. Main St. Richmond, VA",
         "address": "1601 W. Main St. Richmond, VA",
+        "latitude": 37.547504,
+        "longitude": -77.461025,
         "description": {
             "__cdata": "<img src=\"https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/buq35gtkms9p2587jl7fitibho/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALpu-o41sfjMm5WJxNrjQQQD3ZlKg0L5TsGWXopIfM0NLhC9kxFJI47V02zDYbh7pDS1S6-9bc0VFL7qX7SO6WnBNcPzYwL5gBgJm7_LJo9_V4tGkmG62DCdWUhA8jvRwDpWZ24F8efcbEoMqODoDwWRD9LCONy-I-5YXuIosqzhgCXt3_zKATOC8oWd140oKdLRjr2pqpBy6-HXa0r_oimrfRDB1ec5tDf_mO9ivAF8fKxqa2Q_UsEIrbipGLEuAHkNT6piYzS5PzaKcZv4JCN1d3uhjQ?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 43<br>Specific Area: East wall. Viewed at Intersection<br>Description: Mind Blown Guy<br>Artist: ONUR<br>Social Media: <br>Website: "
         },
@@ -1736,6 +1822,8 @@ var murals = [
     {
         "name": "1613 W. Main St. Richmond, VA",
         "address": "1613 W. Main St. Richmond, VA",
+        "latitude": 37.547646,
+        "longitude": -77.461423,
         "description": {
             "__cdata": "<img src=\"https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/jgkfdruc2r4201qidjhliaqlm4/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALpOh-39H-82qivTnopkuLxvxeg6qqE2aXRPXb53_bguAll3v4tmns-EC0o4YIM1Kq9E5yV7PCq8cuA3Yx95BqYG6SBo39Cp32a_z6NOYy0eChSc1b4KJ4ll9fTx3afL_Ckbo-7ixHldu1YrNPx92i73wZmmPvhHGKB5Xp5KAD0Ik99Xu3BFT-8FWWjGyptpJ4Kzs6JJuPxGJ7YloSFzG6ERn-dxZnpnM3WKuoNjab02Vi-B-hrBYdaSt8xoEs-blnGSWrGiH-8hAUfBKrv7fJIMKILgJQ?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 44<br>Specific Area: Front of building<br>Description: Micky Mouse<br>Artist: JERKFACE<br>Social Media: <br>Website: "
         },
@@ -1776,6 +1864,8 @@ var murals = [
     {
         "name": "1606 W. Main St. Richmond, VA",
         "address": "1606 W. Main St. Richmond, VA",
+        "latitude": 37.547586,
+        "longitude": -77.461254,
         "description": {
             "__cdata": "<img src=\"https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/af467shlv933gdtqmf5bhem5h0/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALqYO8EZoVXccCe46BpeIJQgnxC_pBwhm3BVnUANzAZZZFYzbC1s7rUhopdWk_qfT3SWLS6kXuwX6yd5KueqY6okHs8h1TGqaVB75qTUDTqPFJ2HvFyzVxCcJK0DLMYNuTS08UMTDAn-D6DAmCd14fLB3lRPslzIqO33_cBvv6GneKrvhLwGOqVtvClXCD6ULWR3uV-KI6Souw8znMholOJ5OuwR3wmt0wdGzrYBX2qBsABGt1fMNBidz3cZArLk6okUGWOblOIzflBrNfbfy3MxMW5jmw?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 45<br>Specific Area: First alley behind Bomboline. 3 Murals. 1st is on East wall.<br>Description: Pimped Out Dog in Pink Suit<br>Artist: <br>Social Media: <br>Website: "
         },
@@ -1815,6 +1905,8 @@ var murals = [
     {
         "name": "1608 W. Main St. Richmond, VA",
         "address": "1608 W. Main St. Richmond, VA",
+        "latitude": 37.547584,
+        "longitude": -77.461248,
         "description": {
             "__cdata": "<img src=\"https://doc-0g-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/1f3taj4sbmri3vd1m4prlo4cn4/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALpAKb8br4_ZaMU0E37cPMCVWwqSCpVAoHiMXtLbYOTwPMgBM4IjJx3-784X9Kc7BuRkkQ7vN1FuLlIXBa6naqGE_jcziPO5-asTZC3BpyhrIPHTOcIxFyzk-F0FrmzD8n7AyL6omGZL4Dew4hLnvYF4narnDA5UBvOs75x-zCj2uaxxVOIXLVdu4sNXEdbgtSo3MPSpWOyybRxQXuqRZvz-YE_rQswAft3eAqQSk6LAPy2vkoiNT9c2ZtMMsyD3EWPbKqqMxiS9wyZEDRhLtP9yygBAwQ?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 46<br>Specific Area: East wall behind Bombolini<br>Description: Laser eyes and guitarist<br>Artist: Guitarist = Lowtide<br>Social Media: <br>Website: "
         },
@@ -1855,6 +1947,8 @@ var murals = [
     {
         "name": "1614 W. Main St. Richmond, VA",
         "address": "1614 W. Main St. Richmond, VA",
+        "latitude": 37.547751,
+        "longitude": -77.461718,
         "description": {
             "__cdata": "<img src=\"https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/huqrpugn3q0qqqr2l717fsu74o/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALoQ4bWw5NeX763u5nU7va9JVBpwkPu7xbDdxMevzn0RlY-v1VKfD-M1-h9SUdZsWqNqqXEB6BLkCtVo7fw-0nM3Dza_BaBpK-rwU0-pwGKugEAYVO-PidCDbAZuNPYMe-4Hg8Vc_jVGIzoGU7Y8J8m-Q-tOiEI4oBxkldBtR59mmPFOM7nGQjQ6tqsoWOgZPDG2Yffaa-wcZixi3iWxo5aCSUPqzhBdPYFf1ypuugRuzfrco1OthZm1frE-UXfs83j85pbnA9vzzMk5ayHg_APMQd6Y_Q?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 47<br>Specific Area: Directly behind Trolley Market facing East<br>Description: Man<br>Artist: NILS<br>Social Media: @nilsrva<br>Website: http://nilswestergard.com/"
         },
@@ -1897,6 +1991,8 @@ var murals = [
     {
         "name": "1614 W. Main St. Richmond, VA",
         "address": "1614 W. Main St. Richmond, VA",
+        "latitude": 37.547751,
+        "longitude": -77.461718,
         "description": {
             "__cdata": "<img src=\"https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/t0be8143qbkq2og2elsmu3da68/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALplMISYP6s4V2-txRt_R-7WjM6XARWBo3eu9WJmW8s59MY61WQ9mhhctqEaeIgguqBiNZ2ud6PKfKPEEuH6tgd39cql0XGT0HjFWn9SCHUuAhIAAe7lTStpK6EP_RgE5ff2KQYMg5xIO51bRoeB5zWKQjSemm5uCaSg-AiKxINoaKG2X0M3_NDKgd3u_fcq_Cxi_-NOlOWnjoclM17v9i2TrYq8fjdQ5YlZtTsl_I359_bhRNzXYRgbHYXlB12l99s_TNtR9XwrbRlkaMIOFmBuihIoDQ?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 48<br>Specific Area: Directly behind Trolley Market facing North<br>Description: Staring with Roses<br>Artist: NILS<br>Social Media: @nilsrva<br>Website: http://nilswestergard.com/"
         },
@@ -1939,6 +2035,8 @@ var murals = [
     {
         "name": "1533 Floyd Ave Richmond, VA",
         "address": "1533 Floyd Ave Richmond, VA",
+        "latitude": 37.548546,
+        "longitude": -77.460174,
         "description": {
             "__cdata": "<img src=\"https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/cp64b3furii7dk1vrvl275e910/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALpfLYkuGhAeC3-M-TDF7iQ-NttSVdTabQn30REzpDXDJU0mtZ3O-XxjcCbSvoWPwUOrWeSIL6EdEYBTJtM8G-NYg9avIQUDiTOlTokbAbNTWv19SkLY4hNLTaiM6Ot1iLkPbpaxPiaVdZhpmhHj44X19jnJL-JPRiNUKmO8MWbDoTMJXZcwSw-F-f8O-c3X89hgv2Jq5mOX-hp8oN712Y71L59QUYj67u9eK9Z0cS9YdJTuXbm45-hYuyXloBeSJJgp9fmgYwGmyPXVXkZTJMJG04WFrg?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 49<br>Specific Area: West wall<br>Description: Hands Over Eyes - Title: Within<br>Artist: NILS<br>Social Media: @nilsrva<br>Website: http://nilswestergard.com/"
         },
@@ -1981,6 +2079,8 @@ var murals = [
     {
         "name": "2 N Meadow St, Richmond, VA",
         "address": "2 N Meadow St, Richmond, VA",
+        "latitude": 37.549332,
+        "longitude": -77.465796,
         "description": {
             "__cdata": "<img src=\"https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/09559ch9qhbgljf3htj5hdc7u0/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALqHbVr9c-uyoVNRZvSMT_a5JTncYecj1bXjAekT9QS5Z1iae8Oo_cajUpw-06uiqKpsPovGuYyjE039cX6d64RAgAdPxtytoxa9nrJbN6O5JQWPqiE_08_Q6HYQPLp95iKLTFErlVuaJLOMubs5cdPtU5op3e8O4kqwoyLj_9UvtSdoBiiRe1VQpONbvASt8D5WocQCZ662DFfF3i2oN8hKdRMI8YYPDvI2wz62YFSRn3EZFEaZwNqUZP7jp88EL03kffR89qKC7p8ppbdXO2PY2oeHeg?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 50<br>Specific Area: Viewed from Main. South wall<br>Description: Bull and Matador<br>Artist: MEGGS<br>Social Media: <br>Website: "
         },
@@ -2021,6 +2121,8 @@ var murals = [
     {
         "name": "2101 W. Main St. Richmond, VA",
         "address": "2101 W. Main St. Richmond, VA",
+        "latitude": 37.549702,
+        "longitude": -77.467191,
         "description": {
             "__cdata": "<img src=\"https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/jh8s76kvhgltoblbbe0pvjau8g/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALpkZc-BNmtYaNdqvA8MvwUVE5WoWPvrT7wUoVgrm0uDgOcn_0FHYQD0PhKyFFzuIbELq0PFpZSypgkUZIOMaq6xjJW_ZxoAZ9n_PVbFbG6ScVo86O4Q2ip52w-qQpNysJylt3wQobsPYk7XgjrEkxbUoZv65WAGKTNsBZQZELyicoJSnVsmZk_olFLexV7cIoSDh7tXYDUOXZ-hic-5irElQWwRjqFJYAg55zMGEzt_vtdShiD6lXJNHBwA3qxq0FIPMz7P94ZiB2yKXW2LSNgr4JYnrA?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 51<br>Specific Area: Sidewalk Café West wall<br>Description: Beauty Queen<br>Artist: Ed Trask<br>Social Media: <br>Website: "
         },
@@ -2061,6 +2163,8 @@ var murals = [
     {
         "name": "2103 W. Main St. Richmond, VA",
         "address": "2103 W. Main St. Richmond, VA",
+        "latitude": 37.54973,
+        "longitude": -77.467266,
         "description": {
             "__cdata": "<img src=\"https://doc-14-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/ri8spt212psol5pkqih1qmn2r8/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALo_dbtCql-saiv5XzMqpLt8BFzIDTjvkKZICH8Jc6x6SMhwQruVtwStsINo1TrBq3x-bJBcoXl8dGerSlivbFQNhl4xzGr2B4lW0WZSH3UF2Lczrsva9JNpW_qdHDqqmEveo73Zg7Lnb0IAgxrPFMXfLOOnrzq1EYGo1kceHSr-JwI6IGSDi6sXkwe8rxNTUa9__PTxV3HcA7VMHU_cCI6Ra6iILsbZG-uRM-DaYVGl87HcFm0d0hTNM_cAkwMc6hUyw-c5INU4_0JUKMI3gvTDdC4rkw?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 52<br>Specific Area: East wall<br>Description: Woman with Rat Skin Holding Orb<br>Artist: NATALIA RAK<br>Social Media: <br>Website: "
         },
@@ -2101,6 +2205,8 @@ var murals = [
     {
         "name": "2 N. Rowland St. Richmond, VA",
         "address": "2 N. Rowland St. Richmond, VA",
+        "latitude": 37.549763,
+        "longitude": -77.467038,
         "description": {
             "__cdata": "<img src=\"https://doc-14-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/sg9b9077naoa5q7qkvh5k48o98/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALorRHPq2n0j_HMQZfM_Dn-MjppwhXBDqSBnuxGE57J8gn6kgSxK-bUgKwGr8oron3UMYkrB1HtjeZgfUIv_6fFqUuCVWYoQyqu7IQMI4SG45Rn2pPtcjrP6y3wskirv9opeZMMz69q8C3Lyco2Z4dJi3gUcF8dkBkOMIdpRSK_jGZdScV7vcxpI9ABudqQs9CGtBY9naJp9fjN7ZE84C6K_FMCo8X-ot6mhlNYJhN8icz4qcaLBxs1XIuN30g_g0GtexAZZ626qwAR4LqJwbv31FfzIIQ?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 53<br>Specific Area: South wall<br>Description: Statue with Ship<br>Artist: GAIA<br>Social Media: <br>Website: "
         },
@@ -2141,6 +2247,8 @@ var murals = [
     {
         "name": "2315 W. Main St. Richmond, VA",
         "address": "2315 W. Main St. Richmond, VA",
+        "latitude": 37.550798,
+        "longitude": -77.470243,
         "description": {
             "__cdata": "<img src=\"https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/13fg3enbe4d5lckr4ln6iiam88/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALrJleiVLhqAYEnB-QVtLNYg214YIfggjNCbVIzTguVpaJ7SzAeG5Fa3k71Yw19V9bCnnrh3TZwBsfDta6GSv4ql6QhbUjr9sas_JqFLOl1JoQL65BUwtEZ6QlcueUcSAlZDp7yZpA1mZl3K9wLqOiDmL_DSzofiZaS8o6YDi10zbVqQ_ZGyqdZx437wJZqXvYoCSW4fuGYjavstlTfXNl9bDFbzZ16nu6EaxO__QmdPgV4fL_wGw_E06OAja-CUc-OtR6QdPH6gOm5hTqUi2dViMo3V0Q?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 54<br>Specific Area: East wall<br>Description: Ladybug<br>Artist: ASVP<br>Social Media: <br>Website: "
         },
@@ -2181,6 +2289,8 @@ var murals = [
     {
         "name": "2401 W. Main St Richmond, VA",
         "address": "2401 W. Main St Richmond, VA",
+        "latitude": 37.551033,
+        "longitude": -77.470894,
         "description": {
             "__cdata": "<img src=\"https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/1ino51ncskkfr3c1uo33b20irg/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALo8k-A9xqtEes9StdbnL_lzTPMX5ZF4rZ3FujInPF4emEgsyHlHYrPZWQLAO1cFnHHbcr8kvwt079GUzcS6wjtK-0TqcGiAd8x6xCLRagA39O6UUdY80Iq8gB9OwfrqBIPd3RSsQm9wOiK8Nx7jzCDWVPL_kBCvEaSrbzZLzJGSNr5N0ySu_nV733zuwdznB2avl4SZpxBTvQOmPTY9W2fYhQ6CnPYQD37ZgX93huihhfvl6G8HVXKIlIUBgCkvtPdTgDvEzW-ggjRuCuv63WwJ0doTrA?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 55<br>Specific Area: West wall<br>Description: Hello Richmond and vintage Coca-Cola ad<br>Artist: Charles Berger and Parker Galore<br>Social Media: <br>Website: "
         },
@@ -2221,6 +2331,8 @@ var murals = [
     {
         "name": "2400 W. Main St. Richmond, VA",
         "address": "2400 W. Main St. Richmond, VA",
+        "latitude": 37.551031,
+        "longitude": -77.470889,
         "description": {
             "__cdata": "<img src=\"https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/hmoka2gjvo4d2tae3v0tm06dks/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALpMMf3x6VYeyY74BtNCN2A4hJiccAkNT_hdoOXX-58JYu572hWfEtCt1D56muwco2Z7N66Ex9dB2xNBvXEuAr405hiTUMOhL7c7zVXPtLaww_CQO65jEm72UTB9qbAAW-dqnmxU9ae3xXIpQwJItoq_me8X9Gqsd9P5QHQnk6DWvUebZn8_SAbpvi4bJUnSeAr2LueEbCjWQPm-9GJJlBDWROKzP-QiXVPcNA17RiFtdrsuv4cxKVJ0q0_drPnGFAalumtILg6KA96IjAu3oAdRVpnoOA?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 56<br>Specific Area: Wall of Uptown Deli on Stafford and Main<br>Description: Bored Older Explorers<br>Artist: INKTEN + CLOGTWO<br>Social Media: <br>Website: "
         },
@@ -2261,6 +2373,8 @@ var murals = [
     {
         "name": "2530 W. Main St. Richmond, VA",
         "address": "2530 W. Main St. Richmond, VA",
+        "latitude": 37.551828,
+        "longitude": -77.473141,
         "description": {
             "__cdata": "<img src=\"https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/78c2v422nutnachagvs0n6ps2g/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALoIrJ7EwA6_-dGpDWWmqr1dD6mZLU1OQd43itt0TZKpnX8xPCgEq9-NjauJcn4dWkWE9MJSEpO1EHczGXfAH9jRvFGiy0Kd1Cp6n4pJK2FbCn2gidAJNy3fA0G5Ieez61sgVmtZfEuixgm88Mijor054aa7l0y6GOnaH6yrG4oy32W2DRignzhJmSMAIEIgHsxoqNyOGajEB2lQrLngX2OWxDwJId7Co6G7OtAv8qF4XYHPlUGuNgv1mRwqDyMeKvrlARxrtSFPXz74yyhSvFUkM74RKw?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 57<br>Specific Area: Rocket Pop Media West Wall<br>Description: Woman with Sparrow<br>Artist: Ed Trask<br>Social Media: @edtrask<br>Website: "
         },
@@ -2302,6 +2416,8 @@ var murals = [
     {
         "name": "407 Cleveland St. Richmond, VA",
         "address": "407 Cleveland St. Richmond, VA",
+        "latitude": 37.559507,
+        "longitude": -77.478065,
         "description": {
             "__cdata": "<img src=\"https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/9p4n9565hn5j8sgj137tgk79n8/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALo2oJnvoo3lE_-dLelRmMeRY7eTJ0Fpuvgx-UZDZHLehwvqt70GhSHfyiQ0HzFlDacVcbR5lxcD_4AnyY1IzlU3M2pBfkYcqvHx2Cdpr2Hl1YHiTrD5uG69wZ3_I6wxQVgPTF8TYgVCZQCTNXMpAhIrEZ5j0xhpJLH5o6mXxorjA-Ahh8xxEOH7kP_tqBcZjbW9tAxabhkxW6GhTZClQtbkT--DeJ9MnMKK90eTfVYinxv5fPwMwrVqeD2kW_pPCAef2uldpIY40aW5nxVxGzLM2Ivc3g?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 58<br>Specific Area: Across Cleveland Market on north wall of Belle and Beau Co.<br>Description: Girl. Flower in mouth. Bird on hand - Title: Anna and Paco<br>Artist: NILS<br>Social Media: @nilsrva<br>Website: http://nilswestergard.com/"
         },
@@ -2344,6 +2460,8 @@ var murals = [
     {
         "name": "3116 Patterson Ave. Richmond, VA",
         "address": "3116 Patterson Ave. Richmond, VA",
+        "latitude": 37.560775,
+        "longitude": -77.476615,
         "description": {
             "__cdata": "<img src=\"https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/up15p2j8pkrq09gt1rsu3kft8k/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALqyXURagWyB2xvmq1mzMARln-MomMrYWf_HYA8Qku7hVfZELHB6R8bohLdU7xvJ2O8C6u7Pr8ogA7BSDtfvv6yIhTJ9EAFO_rq-tjEKlxVGWWL4d3V0Guw1LYkkCy3Ddv59EbjqwTAjfXCm8pKRM-aVRQCiNbPFYRNGSsgRchNR-RjPrw3bV8FXZfdOXrQbgc2tBPV8Fi9uREpXkfVWq1nJEpXxDquNoGI6SwZk5kzgdgf5wskSTn0x9OIZsUDb8KyQ7CfT4avxrBxuzNwLKy0lnQO58w?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 59<br>Specific Area: Alley btwn Park and Patterson. btwn Cleveland and Belmont<br>Description: Staring in Black and White w/ Red Butterfly<br>Artist: NILS<br>Social Media: @nilsrva<br>Website: http://nilswestergard.com/"
         },
@@ -2386,6 +2504,8 @@ var murals = [
     {
         "name": "3116 Patterson Ave. Richmond, VA",
         "address": "3116 Patterson Ave. Richmond, VA",
+        "latitude": 37.560775,
+        "longitude": -77.476615,
         "description": {
             "__cdata": "<img src=\"https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/vnd1sp8meiu09652tg1ka4kh2c/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALqwi916nV3FLo7yODtDPqPFqJC5vaO5wEDu9oKZWvjX0tI9I-lZHc_QCKb31XXCxl5wQaIhdtxgT0Uu3C258jNZjouOGH3ni1xZQiDCgpItL26QoMREYnrZZfiVxaGsnmitH5unsC1JVuVoQ-wEhJ3u3XQ7InIgGl65H4vUXJol7whnLmUu4vE1d4JiwtZ-oTf2lEhyL2BFNXYkA7_0hNtNn002KUcskZFDzcdyzduHbsHtdCMXdIpCjq6NoOx96HsA4odXH6ptjGx44uDY8_0g7aKJog?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 60<br>Specific Area: Alley btwn Park and Patterson. btwn Cleveland and Belmont<br>Description: Blonde Hair with Hands Over Head<br>Artist: <br>Social Media: <br>Website: "
         },
@@ -2425,6 +2545,8 @@ var murals = [
     {
         "name": "3050 Patterson Ave. Richmond, VA",
         "address": "3050 Patterson Ave. Richmond, VA",
+        "latitude": 37.560601,
+        "longitude": -77.475082,
         "description": {
             "__cdata": "<img src=\"https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/fgnujief6f68kt5pfphs2hicrc/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALrM4ipvFcGbIm5pB5XaLm_2JtMy8jyf7s0LZ-iJdEiDVz6UMsr3Zp4jF0jZrSZtCnncT0BkDzuiMUz7BpuOst40EHDjsW_IZWJ62vI2R4Dagy35SPxeJld2vBtqqlEU6E6QUlLcDj2HjxpLKFBVG4Lq-xwnpUIPt9mdpKFgEUgKDUrnEhj6d0eOkyotuEe9GtrTdolJcA9V5n6sdjpylKm49m2Dzk5Kb79CUnVpfiQWfiyBWvoQXYRmZVsW-ygfgGNnS6iTDCTmh11_XdhuoKSDWIwLwQ?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 61<br>Specific Area: Across 3020 Patterson Ave<br>Description: Girl with Phone<br>Artist: NILS<br>Social Media: @nilsrva<br>Website: http://nilswestergard.com/"
         },
@@ -5319,6 +5441,10 @@ var murals = [
         "ExtendedData": {
             "Data": [
                 {
+                    "value": "132.0",
+                    "_name": "Number"
+                },
+                {
                     "value": "21 S. Sheppard St. Richmond, VA",
                     "_name": "Location"
                 },
@@ -5354,6 +5480,10 @@ var murals = [
         "styleUrl": "#icon-1899-0288D1",
         "ExtendedData": {
             "Data": [
+                {
+                    "value": "133.0",
+                    "_name": "Number"
+                },
                 {
                     "value": "17 S. Sheppard St. Richmond, VA",
                     "_name": "Location"
@@ -5391,6 +5521,10 @@ var murals = [
         "ExtendedData": {
             "Data": [
                 {
+                    "value": "134.0",
+                    "_name": "Number"
+                },
+                {
                     "value": "1407 Sherwood Ave. Richmond, VA",
                     "_name": "Location"
                 },
@@ -5426,6 +5560,10 @@ var murals = [
         "styleUrl": "#icon-1899-0288D1",
         "ExtendedData": {
             "Data": [
+                {
+                    "value": "135.0",
+                    "_name": "Number"
+                },
                 {
                     "value": "1385 Overbrook Rd. Richmond, VA",
                     "_name": "Location"
@@ -5463,6 +5601,10 @@ var murals = [
         "ExtendedData": {
             "Data": [
                 {
+                    "value": "136.0",
+                    "_name": "Number"
+                },
+                {
                     "value": "1385 Overbrook Rd. Richmond, VA",
                     "_name": "Location"
                 },
@@ -5498,6 +5640,10 @@ var murals = [
         "styleUrl": "#icon-1899-0288D1",
         "ExtendedData": {
             "Data": [
+                {
+                    "value": "137.0",
+                    "_name": "Number"
+                },
                 {
                     "value": "1385 Overbrook Rd. Richmond, VA",
                     "_name": "Location"
@@ -5535,6 +5681,10 @@ var murals = [
         "ExtendedData": {
             "Data": [
                 {
+                    "value": "138.0",
+                    "_name": "Number"
+                },
+                {
                     "value": "3320 Grayland Ave. Richmond, VA",
                     "_name": "Location"
                 },
@@ -5563,6 +5713,10 @@ var murals = [
         "styleUrl": "#icon-1899-0288D1",
         "ExtendedData": {
             "Data": [
+                {
+                    "value": "139.0",
+                    "_name": "Number"
+                },
                 {
                     "value": "4 N. Thompson St. Richmond, VA",
                     "_name": "Location"
@@ -5600,6 +5754,10 @@ var murals = [
         "ExtendedData": {
             "Data": [
                 {
+                    "value": "140.0",
+                    "_name": "Number"
+                },
+                {
                     "value": "3402 W. Cary St. Richmond, VA",
                     "_name": "Location"
                 },
@@ -5634,6 +5792,10 @@ var murals = [
         "styleUrl": "#icon-1899-0288D1",
         "ExtendedData": {
             "Data": [
+                {
+                    "value": "141.0",
+                    "_name": "Number"
+                },
                 {
                     "value": "3000 W. Cary St. Richmond, VA",
                     "_name": "Location"
@@ -5673,6 +5835,10 @@ var murals = [
         "ExtendedData": {
             "Data": [
                 {
+                    "value": "142.0",
+                    "_name": "Number"
+                },
+                {
                     "value": "3311 W. Broad St. Richmond, VA",
                     "_name": "Location"
                 },
@@ -5710,6 +5876,10 @@ var murals = [
         "styleUrl": "#icon-1899-0288D1",
         "ExtendedData": {
             "Data": [
+                {
+                    "value": "143.0",
+                    "_name": "Number"
+                },
                 {
                     "value": "Treasure Island Community Skatepark",
                     "_name": "Location"
@@ -5750,6 +5920,10 @@ var murals = [
         "styleUrl": "#icon-1899-0288D1",
         "ExtendedData": {
             "Data": [
+                {
+                    "value": "144.0",
+                    "_name": "Number"
+                },
                 {
                     "value": "3113 Floyd Ave. Richmond, VA 23221",
                     "_name": "Location"

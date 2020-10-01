@@ -7,3 +7,11 @@
     background-color: #343434;
     padding-left: 20px;
 }
+
+.map-div {
+    height: 450px;
+}
+
+.mapPop {
+    /* width: 500px; */
+}
