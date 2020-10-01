@@ -97,7 +97,7 @@ $(document).ready(function () {
     function rvaSearch() {
         $.ajax({
             url:
-                'https://data.richmondgov.com/resource/f7vy-k94i.json?functn=5500: Natural and other recreational parks',
+                'https://data.richmondgov.com/resource/f7vy-k94i.json?functn=5000: Arts, entertainment, and recreation',
             type: 'GET',
             data: {
                 $limit: 5000,
