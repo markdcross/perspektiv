@@ -23,17 +23,13 @@ $(document).ready(function () {
     var muralName = muralData[1].name;
     // Capture and display mural location
     var muralLoc = muralData[1].ExtendedData.Data[1].value;
-    // Capture and display artist name
-    var artistName = muralData[1].ExtendedData.Data[3].value;
+
     // Capture and display artist website
     var artistWebsite = muralData[1].ExtendedData.Data[5].value;
-    // Capture and display mural image
-    var muralImg = muralData[1].ExtendedData.Data[6].value.__cdata;
-    // Capture and display the data to display in popup
-    var cdata = muralData[1].description.__cdata;
 
     mapInit();
     rvaSearch();
+    muralMarkers();
 
     //* ---------------------
     //* Initialize map
@@ -61,51 +57,77 @@ $(document).ready(function () {
     //* Add mural markers
     //* ---------------------
     function muralMarkers() {
-        // for (var i = 0; i < muralData.length; i++) {
-        var muralLat = muralData[m].latitude;
-        var muralLon = muralData[m].longitude;
-        // Create popup
-        var popup = L.popup({
-            maxWidth: 5000,
-            keepInView: true,
-            className: 'mapPop',
-        }).setContent(`${cdata}`);
-        // Place a marker for each mural from lat/lon
-        L.marker([muralLat, muralLon], { riseOnHover: true })
-            .addTo(theMap)
-            //TODO: Image overflows popup, img is larger than map div
-            .bindPopup(popup);
-        // * Click event for map pins
-        // .on('click', function (e) {
-        //     // Capture lat/long from clicked pin
-        //     var pinLat = this._latlng.lat;
-        //     var pinLon = this._latlng.lng;
-        //     console.log(this);
-        //     console.log(pinLat);
-        //     console.log(pinLon);
-        //     //* Pass pin lat/long to Yelp API call
-        //     yelpSearch(pinLat, pinLon);
-        // });
+        for (var i = 0; i < muralData.length; i++) {
+            var muralLat = muralData[i].latitude;
+            var muralLon = muralData[i].longitude;
+            var muralImg = muralData[i].ExtendedData.Data[6].value.__cdata;
+            var artistName = muralData[i].ExtendedData.Data[3].value;
+            var cdata = muralData[i].description.__cdata;
+            // Create popup
+            var popup = L.popup({
+                maxWidth: 5000,
+                keepInView: true,
+                className: 'mapPop',
+            }).setContent(`${cdata}`);
+            // Place a marker for each mural from lat/lon
+            L.marker([muralLat, muralLon], { riseOnHover: true })
+                //TODO: Image overflows popup, img is larger than map div
+                .bindPopup(popup)
+                // * Click event for map pins
+                .on('click', function (e) {
+                    // Capture lat/long from clicked pin
+                    var pinLat = this._latlng.lat;
+                    var pinLon = this._latlng.lng;
+                    //* Pass pin lat/long to Yelp API call
+                    yelpSearch(pinLat, pinLon);
+                    //* --------------------------
+                    //* Populate DOM?
+                    //* --------------------------
+                })
+                .addTo(theMap);
+        }
     }
-
-    //* --------------------------
-    //* Populate DOM (testing)
-    //* --------------------------
-    // $('#artist-info').text(`Artist: ${artistName}`);
-    // $('#mural-img').attr('src', muralImg);
-    // $('#artist-info').text(`Artist: ${artistName}`);
 
     //* --------------------------
     //* APIs
     //* --------------------------
-    //! CORS-anywhere proxy causes notable lag
-    // TODO: Future: Add back-end support to fix CORS error
-    // TODO: Tuck these in a click event (map pin) to call based on this.lat/lon?
-    // TODO: --How to circumvent per second API call limits w/ loop?
-
+    //* RVA Open Data Portal
+    // Key - 434uziup973kgkl6n6xqsplhf
+    // key secret - 6bz7211gl06qj6z80bwdopeomuwnbrtv70ewemrhc9jjvla8c8
+    function rvaSearch() {
+        $.ajax({
+            url:
+                'https://data.richmondgov.com/resource/f7vy-k94i.json?functn=5500: Natural and other recreational parks',
+            type: 'GET',
+            data: {
+                $limit: 5000,
+                $$app_token: 'doEdXY4IrCn9anJakbK3Pgbpz',
+            },
+        }).done(function (rvaResponse) {
+            rvaData = rvaResponse;
+            // Loop through each response and create a map marker for it, with a tooltip with its name
+            for (var r = 0; r < rvaData.length; r++) {
+                // Capture name, lat and lon of each response
+                var lat = rvaData[r].location_1.latitude;
+                var lon = rvaData[r].location_1.longitude;
+                var name = rvaData[r].name;
+                var myIcon = L.icon({
+                    iconUrl: 'assets/images/map-marker-icon.png',
+                    iconSize: [15, 15],
+                });
+                // Create a map marker for each response
+                L.marker([lat, lon], { icon: myIcon })
+                    .addTo(theMap)
+                    // Add a tooltip with the name of the response
+                    .bindTooltip(name);
+            }
+        });
+    }
+    // TODO: Tuck this in a click event (map pin) to call based on this.lat/lon
     //* Call Yelp API
     function yelpSearch(lat, lon) {
         //! CORS-anywhere proxy causes notable lag here - takes a second to load this div
+        // TODO: Future: Add back-end support to fix CORS error
         // Clears the div for Yelp results
         $('#yelpEl').empty();
         // Uses the lat and long of the clicked pin from Nominatim
@@ -135,34 +157,6 @@ $(document).ready(function () {
             }
         });
         // --Request nearby attractions based on filters
-    }
-    //* RVA Open Data Portal
-    // Key - 434uziup973kgkl6n6xqsplhf
-    // key secret - 6bz7211gl06qj6z80bwdopeomuwnbrtv70ewemrhc9jjvla8c8
-    function rvaSearch() {
-        $.ajax({
-            url:
-                'https://data.richmondgov.com/resource/f7vy-k94i.json?functn=5500: Natural and other recreational parks',
-            type: 'GET',
-            data: {
-                $limit: 5000,
-                $$app_token: 'doEdXY4IrCn9anJakbK3Pgbpz',
-            },
-        }).done(function (rvaResponse) {
-            rvaData = rvaResponse;
-            for (var r = 0; r < rvaData.length; r++) {
-                var lat = rvaData[r].location_1.latitude;
-                var lon = rvaData[r].location_1.longitude;
-                var name = rvaData[r].name;
-                var myIcon = L.icon({
-                    iconUrl: 'assets/images/map-marker-icon.png',
-                    iconSize: [15, 15],
-                });
-                L.marker([lat, lon], { icon: myIcon })
-                    .addTo(theMap)
-                    .bindTooltip(name);
-            }
-        });
     }
 
     //! -----------------
