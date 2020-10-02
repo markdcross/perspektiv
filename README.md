@@ -24,3 +24,4 @@ SO that I can easily view the next location
 # Future Dev
 
 -   Resolve CORS issues and remove proxy to improve stability and performance
+
