@@ -16,6 +16,10 @@ body {
       color: hotpink;
   }
 
+  .animBKG {
+    background-image: linear-gradient(#343434 20%, black);
+}
+
 /* // Class for when element is above threshold */
 /* .pin-top {
   position: relative;
@@ -77,6 +81,7 @@ nav ul li {
 .page-footer {
   background-color: #343434;
   margin-top: -15px;
+  padding-top: 0px;
 }
 
 /* .footer-copyright {
@@ -89,6 +94,13 @@ nav ul li {
   color: hotpink;
   font-size: 8rem;
   right: 40px;
+  bottom: -30px;
+}
+
+.lowState {
+  position: fixed;
+  z-index: 100;
+  right: 10px;
   bottom: -10px;
 }
 

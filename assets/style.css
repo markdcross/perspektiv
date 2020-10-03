@@ -1,9 +1,14 @@
 body {
-    background-color: #626262;
+    background-color: #343434;
+    max-width: 900px;
 }
   @font-face {
     font-family: fancyFont;
     src: url(./font/TheHistoriaDemo.ttf);
+  }
+
+  .container {
+      max-width: 900px;
   }
 
   .logoFont {
@@ -16,6 +21,43 @@ body {
       color: hotpink;
       z-index: 401;
   }
+
+  nav {
+    background-color: #343434;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-bottom: 11px;
+}
+
+nav ul li {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.mainCard {
+    margin-top: -2px;
+}
+
+.card .card-title {
+    font-family: fancyFont;
+    color: hotpink;
+    font-size: 4rem;
+}
+
+.card .card-content .card-title {
+    margin-bottom: 0px;
+    margin-top: 8px;
+    background-color: #343434;
+
+}
+
+.card .card-content{
+    background-color: #343434;
+}
+
+ .card .card-reveal{
+    background-color: #f1f1f1;
+}
 
 .crd-img {
     width: 100%;
@@ -33,4 +75,8 @@ body {
 
 .mapPop {
     /* width: 500px; */
+}
+
+.animBKG {
+    background-image: linear-gradient(#343434 20%, black);
 }

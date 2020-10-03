@@ -62,6 +62,10 @@ document.addEventListener('DOMContentLoaded', function () {
     $(document).ready(function () {
         $('.modal').modal();
     });
+    
+    $(document).ready(function(){
+        $('.tabs').tabs();
+      });
 });
 
 $(document).ready(function () {
