@@ -171,3 +171,11 @@ $(document).ready(function () {
     // Bike theft/safety API - https://www.bikewise.org/
     // -------------------------
 });
+
+
+$("favbutton").on("click", function(){
+    alert("hello");
+}) 
+
+
+
