@@ -1,156 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-        />
-        <link
-            href="https://fonts.googleapis.com/icon?family=Material+Icons"
-            rel="stylesheet"
-        />
-        <link
-            rel="stylesheet"
-            href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-            integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-            crossorigin=""
-        />
-        <link
-            href="./assets/style.css"
-            type="text/css"
-            rel="stylesheet"
-            media="screen,projection"
-        />
-        <title>P E R S P E K T I V</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link href="./assets/indexStyle.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <title>P E R S P E K T I V</title>
+</head>
+<body class="animBKG">
+    <img src="./images/VA.png" class="lowState">
+    <a href="#!" class="brand-logo lowLogo">RVA</a>
 
-    <body class="container">
-        <div>
+    <header>
+        <div class="navbar-fixed">
             <nav>
                 <div class="nav-wrapper">
-                    <a href="#!" class="brand-logo logoFont">Perspektiv</a>
-                    <ul class="right hide-on-med-and-down">
+                    <a href="#!" class="logoFont">Perspektiv</a>
+                    <ul class="right">
                         <li>
-                            <a href="sass.html">Map View</a>
+                            <a href="mapview.html">MAP VIEW</a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </div>
+    </header>   
     
+<main>
+    <ul class="gallery">
+        <li>
+            <img class="materialboxed" src="images/1.jpg" loading="lazy">
+            <a href="mapview.html" class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+        </li>
+        <li>
+            <img class="materialboxed" src="images/2.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+        </li>
+        <li>
+            <img class="materialboxed" src="images/3.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+        </li>
+        <li>
+            <img class="materialboxed" src="images/4.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+        </li>
+        <li>
+            <img class="materialboxed" src="images/5.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
 
-        <!-- <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101245.48091818624!2d-77.43867520655097!3d37.533352924159345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b111095799c9ed%3A0xbfd83e6de2423cc5!2sRichmond%2C%20VA!5e0!3m2!1sen!2sus!4v1601169656943!5m2!1sen!2sus"
-            width="100%"
-            height="450"
-            frameborder="0"
-            style="border: 0"
-            allowfullscreen=""
-            aria-hidden="false"
-            tabindex="0"
-            id="map"
-        ></iframe> -->
-        <!-- --- -->
-        <!-- Map -->
-        <!-- --- -->
-        <div class="map-div" id="map-content"></div>
-        <ul class="collapsible">
-            <li>
-                <div class="collapsible-header">
-                    <i class="material-icons">brush</i>ART
-                </div>
-                <div class="collapsible-body">
-                    <div class="row">
-                        <div class="col s12">
-                            <div class="card">
-                                <div class="card-image">
-                                    <img
-                                        src="./assets/images/lettherebelight.jpg"
-                                        data-target="modal1"
-                                        class="btn modal-trigger crd-img"
-                                        id="mural-img"
-                                    />
-                                </div>
-                            </div>
-                        </div>
+        </li>
+        <li>
+            <img class="materialboxed" src="images/6.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+        </li>
+        <li>
+            <img class="materialboxed" src="images/7.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+        </li>
+        <li>
+            <img class="materialboxed" src="images/8.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
 
-                        <div class="col s12">
-                            <p id="artist-info">Artist: Pablo Picasso</p>
-                            <p id="artist-art">
-                                Mural: "mural title or name of piece"
-                            </p>
-                            <p id="artist-social">
-                                www.pablopicassoeatscake.com
-                            </p>
-                        </div>
+        </li>
+        <li>
+            <img class="materialboxed" src="images/9.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+
+        </li>
+        <li>
+            <img class="materialboxed" src="images/10.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+
+        </li>
+        <li>
+            <img class="materialboxed" src="images/11.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+
+        </li>
+        <li>
+            <img class="materialboxed" src="images/12.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+        </li>
+        <!-- <li>
+            <img src="images/13.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+
+        </li> -->
+        <li>
+            <img class="materialboxed" src="images/14.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+
+        </li>
+        <li>
+            <img class="materialboxed" src="images/15.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+
+        </li>
+        <li>
+            <img class="materialboxed" src="images/16.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+
+        </li>
+        <li>
+            <img class="materialboxed" src="images/17.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+        </li>
+        <li>
+            <img class="materialboxed" src="images/18.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+        </li>
+        <li>
+            <img class="materialboxed" src="images/19.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+
+        </li>
+        <li>
+            <img class="materialboxed" src="images/20.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+
+        </li>
+        <li>
+            <img class="materialboxed" src="images/21.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+
+        </li>
+        <li>
+            <img class="materialboxed" src="images/22.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+        </li>
+        <li>
+            <img class="materialboxed"  src="images/23.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+
+        </li>
+        <li>
+            <img class="materialboxed"  src="images/24.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+        </li>
+        <li>
+            <img class="materialboxed"  src="images/25.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+
+        </li>
+        <li>
+            <img class="materialboxed"  src="images/26.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+        </li>
+        <li>
+            <img class="materialboxed"  src="images/27.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+        </li>
+        <li>
+            <img class="materialboxed"  src="images/28.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+        </li>
+        <li>
+            <img class="materialboxed"  src="images/29.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+        </li>
+        <li>
+            <img class="materialboxed"  src="images/30.jpg" loading="lazy">
+            <a class="btn-floating imgBtn"><i class="material-icons">place</i></a>
+        </li>
+        <li></li>
+    </ul>
+</main>
+<footer class="page-footer">
+    <div class="footer-copyright">
+        <div class="container">
+            © 2020 Copyright Thunder Domes
+            <!-- <a class="grey-text text-lighten-4 right" href="#!">Contact</a> -->
+        </div>
+    </div>
+
+
+</footer>
+    <sript src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./assets/indexScript.js"></script>
+
+    </body>
+    </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--     
+            <div id="blue" class="block blue">
+                <nav class="pushpin-demo-nav pinned" data-target="blue" style="top: 0px;">
+                <div class="nav-wrapper light-blue">
+                    <div class="container">
+                    <a href="#" class="brand-logo">Blue</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="#!">Blue Link 1</a></li>
+                        <li><a href="#!">Blue Link 2</a></li>
+                        <li><a href="#!">Blue Link 3</a></li>
+                    </ul>
                     </div>
                 </div>
-            </li>
-            <li>
-                <div class="collapsible-header">
-                    <i class="material-icons">place</i>AREA INFO
-                </div>
-                <div class="collapsible-body" id="wikiEl">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d101245.48091818624!2d-77.43867520655097!3d37.533352924159345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b111095799c9ed%3A0xbfd83e6de2423cc5!2sRichmond%2C%20VA!5e0!3m2!1sen!2sus!4v1601169656943!5m2!1sen!2sus"
-                        width="100%"
-                        height="450"
-                        frameborder="0"
-                        style="border: 0"
-                        allowfullscreen=""
-                        aria-hidden="false"
-                        tabindex="0"
-                        id="wikiFrame"
-                    ></iframe>
-                </div>
-            </li>
-            <li>
-                <div class="collapsible-header">
-                    <i class="material-icons">photo_size_select_actual </i
-                    >POINTS OF INTEREST
-                </div>
-                <div class="collapsible-body" id="yelpEl"></div>
-            </li>
-        </ul>
-
-        <!-- Modal Trigger -->
-        <!-- <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a> -->
-
-        <!-- Modal Structure -->
-        <div id="modal1" class="modal">
-            <div class="modal-content">
-                <h4>Modal Header</h4>
-                <p>A bunch of text</p>
+                </nav>
             </div>
-            <div class="modal-footer">
-                <a
-                    href="#!"
-                    class="modal-close waves-effect waves-green btn-flat"
-                    >Agree</a
-                >
-            </div>
-        </div>
-    </body>
-    <script src="./assets/murals.json"></script>
-    <script
-        src="https://code.jquery.com/jquery-3.5.1.js"
-        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-        crossorigin="anonymous"
-    ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script
-        src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-        crossorigin=""
-    ></script>
-    <!-- <script src="js/init.js"></script> -->
-    <!-- <script
-        async
-        defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk"
-    ></script> -->
-    <script src="./assets/scripts.js"></script>
-</html>
 
+            <div id="red" class="block red lighten-1">
+                <nav class="pushpin-demo-nav pin-top" data-target="red" style="top: 0px;">
+                  <div class="nav-wrapper red">
+                    <div class="container">
+                      <a href="#" class="brand-logo">Red</a>
+                      <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="#!">Red Link 1</a></li>
+                        <li><a href="#!">Red Link 2</a></li>
+                        <li><a href="#!">Red Link 3</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+            </div>
+
+            <div id="green" class="block green lighten-1">
+                <nav class="pushpin-demo-nav pin-top" data-target="green" style="top: 0px;">
+                  <div class="nav-wrapper green">
+                    <div class="container">
+                      <a href="#" class="brand-logo">Green</a>
+                      <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="#!">Green Link 1</a></li>
+                        <li><a href="#!">Green Link 2</a></li>
+                        <li><a href="#!">Green Link 3</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+            </div>
+ -->
