@@ -7,14 +7,21 @@ body {
   }
 
   .logoFont {
+      top: 30px;
       font-family: fancyFont;
+      position: absolute;
+      color: hotpink;
+      display: inline-block;
+      font-size: 5.5rem;
+      padding: 0;
+      z-index: 401;
   }
 
-  nav .brand-logo {
+  /* nav .brand-logo {
       font-size: 5.5rem;
       padding-top: 25px;
       color: hotpink;
-  }
+  } */
 
   .animBKG {
     background-image: linear-gradient(#343434 20%, black);
@@ -89,6 +96,7 @@ nav ul li {
 } */
 
 .lowLogo {
+  font-family: fancyFont;
   position: fixed;
   z-index: 401;
   color: hotpink;
@@ -156,6 +164,24 @@ ul.gallery img {
 
 ul.gallery li:last-child {
     flex-grow: 10;
+  }
+
+  @media only screen and (max-width: 601px) {
+    .logoFont {
+      top: 25px;
+    }
+
+    .lowLogo {
+      font-size: 6rem;
+      bottom: -20px;
+    }
+
+    .lowState {
+      width: 200px;
+      right: 10px;
+      bottom: 0px;
+    }
+
   }
 
   /* Portrait */

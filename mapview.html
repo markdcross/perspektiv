@@ -27,18 +27,20 @@
     </head>
 
     <body class="container animBKG">
-        <div>
+        <!-- <a href="#!" class="brand-logo lowLogo">RVA</a> -->
+    
+        <header>
             <nav>
                 <div class="nav-wrapper">
-                    <a href="#!" class="brand-logo logoFont">Perspektiv</a>
-                    <ul class="right hide-on-med-and-down">
+                    <a href="#!" class=" logoFont">Perspektiv</a>
+                    <ul class="right ">
                         <li>
                             <a href="pushTest.html">MURAL VIEW</a>
                         </li>
                     </ul>
                 </div>
             </nav>
-        </div>
+        </header>
     
 
         <!-- <iframe
@@ -55,6 +57,7 @@
         <!-- --- -->
         <!-- Map -->
         <!-- --- -->
+    <main>
 
         <div class="map-div" id="map-content"></div>
         <div class="card mainCard">
@@ -66,25 +69,51 @@
                 <!-- <p><a href="#">This is a link</a></p> -->
             </div>
             <div class="card-reveal">
-                <span class="card-title logoFontCard">Discover RVA<i class="material-icons right">close</i></span>
+                <span class="card-title">Discover RVA<i class="material-icons right">close</i></span>
                 <div class="card">
                     <!-- <div class="card-content">
                     <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
                     </div> -->
                     <div class="card-tabs">
                         <ul class="tabs tabs-fixed-width">
-                            <li class="tab"><a class="active" href="#test4">ARTIST</a></li>
-                            <li class="tab"><a href="#test5">AREA</a></li>
-                            <li class="tab"><a href="#test6">AROUND</a></li>
+                            <li class="tab"><a class="active" href="#tab1">ARTIST</a></li>
+                            <li class="tab"><a href="#tab2">AREA</a></li>
+                            <li class="tab"><a href="#tab3">AROUND</a></li>
                         </ul>
                     </div>
                     <div class="card-content grey lighten-4">
-                        <div id="test4">ARTIST</div>
-                        <div id="test5">AREA</div>
-                        <div id="test6">AROUND</div>
+                        <div id="tab1">
+                            <p>Mural: <span id="muralName">"Blue Cat Man</span></p>
+                            <p>Location: <span id="muralLoc">5th and Main</span></p>
+                            <p>Artist: <span id="muralArtist">The mad hatter</span></p>
+                            <p>Contact: <span id="muralContact">www.artmyart.com</span></p>
+                        </div>
+                        <div id="tab2">
+                            <p>Something about this area...</p>
+                            <blockquote id="muralWiki">
+                                Richmond's economy is primarily driven by law, finance, and government, with federal, state, and local governmental agencies, as well as notable legal and banking firms in the downtown area. The city is home to both a U.S. Court of Appeals, one of 13 such courts, and a Federal Reserve Bank, one of 12 such banks. Dominion Energy and WestRock, Fortune 500 companies, are headquartered in the city, with others in the metropolitan area
+                            </blockquote>
+                        </div>
+                        <div id="tab3">AROUND</div>
                     </div>
                 </div>
                 
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer">
+        <hr>
+        <div class="footer-content">
+            <div class="container">
+                <div class="row footRow">
+                    <div class="col s10">
+                        © 2020 Copyright Thunder Domes
+                    </div>
+                    <div class="col s2">
+                        <img src="./images/VAp.png" class="lowState">
+                    </div>
+                </div>
+                <!-- <a class="grey-text text-lighten-4 right" href="#!">Contact</a> -->
             </div>
         </div>
 
