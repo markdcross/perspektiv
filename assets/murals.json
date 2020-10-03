@@ -764,7 +764,7 @@ var murals = [
     {
         "name": "2609 W. Cary St. Richmond, VA",
         "address": "2609 W. Cary St. Richmond, VA",
-                "latitude": 37.550871,
+        "latitude": 37.550871,
         "longitude": -77.474257,
         "description": {
             "__cdata": "<img src=\"https://doc-14-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/lla8rc04d1tdumsr8vcm108lgs/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALpZ_3xuUKOnXGZzbSR-HVp--oaFRLom5zAjPIovLOTspuKMsgx7pOP-wv98RIQeyg_eWHs91Pstp0jj8pc9fqy7Y8O5L43QnLX3D5vUSLjKu9nlrdTx3BMVOoPyg0FAe9Z-wm0DndlO3d2W72428JeJdqDmI352HAoLKIibdBAN4hmSkDodaAoP8gYC5DN4ihuEReWtMOd67reVr_b2iwMD4TMFrpJpDHpTuiDi5q6s31dSozKtILadDzj0rDt7pxLsMZd2ALhvWTE7C-oSlYytIZdx1A?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 19<br>Specific Area: Behind Building. East wall<br>Description: Serious Woman and Frightened Girl. <br>Artist: BustArt and Nils<br>Social Media: <br>Website: "
@@ -3292,7 +3292,7 @@ var murals = [
         "name": "2007 W. Broad St. Richmond, VA",
         "address": "2007 W. Broad St. Richmond, VA",
         "latitude": 37.557023,
-        "longitude":  -77.461063,
+        "longitude": -77.461063,
         "description": {
             "__cdata": "<img src=\"https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/vbrr1iilvulh8er8om6ken8ano/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALqpcNt2ZnJNXNnC4-IEB-Kq45cfU5JpSIYr26mpCr8hciAA1Pl1tdcyZy-Bo9I7UpXPYJEOaC_NWk3asOFNKJIv91gj0dCGWvsmfrJGTygz9uFPVXIwZoidsvg14WZ2XRx3u8nn10F5kKgrpd9BQ0iLrYvDLZUFmkq73otZc3X5eTcAkZUa1Bj_yRpetolFXWfV2OHTIFYbdfUXUaR0E3T_YxTO5rP7C-dLMnq_HXskEXDyRlBZHm8DcXt9gTscaCATSEayogFV1ZuL7STY1QjoUvVn7w?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 78<br>Specific Area: Viewed from 711 Parking Lot<br>Description: Samurai Couple<br>Artist: INKTEN + CLOGTWO<br>Social Media: <br>Website: "
         },
@@ -3334,7 +3334,7 @@ var murals = [
         "name": "1639 W. Broad St. Richmond, VA",
         "address": "1639 W. Broad St. Richmond, VA",
         "latitude": 37.554978,
-        "longitude":  -77.457653,
+        "longitude": -77.457653,
         "description": {
             "__cdata": "<img src=\"https://doc-04-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/77qk60mlol6itl9igbtf8petfg/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALoa7C5Z0L29ObvAo-pfmAAivvMwBU_s8-l9YKDZmfAfwVlIu6pZ-udS1sZEYF--jTxlZhwKlvyBTN3do1DMfooKBQUNiSHDpOEqCgZ3na6vBd3EtJUBWXovVgTh3UKp6IorrOEkpXvyECIGSQ4XcF0XKQkNAO8A5rAyOC8v4OSXS2N-VcoHZtiRzJR45UeCfIY--bYH9kDeMNzk9xbv7CvNWKnaRL31zQR86e7nAzXcuExb3f3dMo29cchb_GCCpK0ALAvRANFvmSMmkKQ5yH496wILnA?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 79<br>Specific Area: East wall<br>Description: Alice in Wonderland Caterpillar<br>Artist: Fogleart<br>Social Media: <br>Website: "
         },
@@ -3930,7 +3930,7 @@ var murals = [
         "name": "108 N 7th St. Richmond, VA",
         "address": "108 N 7th St. Richmond, VA",
         "latitude": 37.540376,
-        "longitude":  -77.437076,
+        "longitude": -77.437076,
         "description": {
             "__cdata": "Number: 93<br>Specific Area: North wall<br>Description: Pop Art Crying Lady<br>Artist: D*FACE<br>Social Media: <br>Website: "
         },
@@ -3966,7 +3966,7 @@ var murals = [
         "name": "30 N 8th St. Richmond, VA",
         "address": "30 N 8th St. Richmond, VA",
         "latitude": 37.539538,
-        "longitude":  -77.436507,
+        "longitude": -77.436507,
         "description": {
             "__cdata": "<img src=\"https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/rrqotk4ohc4hkh2v0u0igapf5o/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALrmi6AxykO0DLCYZjCBuP-G4BnIX6AhfMGmS1xkS_jysl125gBurI1nyXztjkw9cdVh8k3EAn7yTxG1kyb4QDnZZO15QA3mM70owTTjMHEYOAhUF5DJzjqfCt-1uych8Q4PvXeOBJjjVoQpLfLagqNf7qwtXjLDvgYhv7nV5whfE7cBp3KA0SUZFjNOrB4lHW6IOlH47SlnT2ZSZdN4UJKcg7D05aMV8WQejdWj6bKwfgPEx15Ui3CkeQdT79TOMqHX14pdAXl8bDpCAATY08xVfdgn6A?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 94<br>Specific Area: Above Subway<br>Description: Dead guy laying face up sprouting shrooms<br>Artist: EKUNDAYO<br>Social Media: <br>Website: <br><br><img src=\"https://doc-0k-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/gjrbj83sc6j5ahaheevt7tggl0/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALoz0dfLNV8k9jaoNLJaO33ieg-q0SM7vxxAoNaLzAsNPvGi_OiM29sfDLivWk752v-0dMilILg4OLIi5oQ9qSiIFAVmmxncMtEIc4GDXVA-6i3l0yGSVCwEP7myToo009P-8SmhUCsn1G8h_TwjgHUhbs0utiBE6EINEph5KUKTSRD_sRpPO-NEx-ALdY39SkoBCIWV_YaecGhl21MmqGtqQTDNdLOOiyZxleU5ccYXtGah6l3jtQ_8uq-pSavxyQjpFxdo13DGTJh37HDwxBSHShblyw?session=0&fife\" height=\"200\" width=\"auto\" />"
         },
@@ -5230,7 +5230,7 @@ var murals = [
         "name": "11 S 18th St. Richmond, VA",
         "address": "11 S 18th St. Richmond, VA",
         "latitude": 37.532516,
-        "longitude":  -77.428026,
+        "longitude": -77.428026,
         "description": {
             "__cdata": "<img src=\"https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/fkf21mrqmo0r1cg2gn4mllnk4g/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALoSH_jVX21iyJsDiZ2QMKFLUXU1wZALui_9J_MOER21aCRnuuoGC8_Q0Gk1Y_dd-rUES0TZ660ePkcRMeEsSVDOXlmbjY8oK1NMgNZFr8CJHqm3HAiZ89JOVvSiiBN9pOMzlBjcv2n9MI-C3dZeGicspP7Dhpd4E7djqswe2sfBE1qrVwnvP7RU1HvtyjDSgLPjyq87t9ONEHAS-1neFDHNvLANybGerlmZj7YrrsqemW-AqvmvzjhaPqjPir2whbVg9tYYYiTCAyNSQBSxaJtL3zG-Xg?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 124<br>Specific Area: West, back wall<br>Description: A door to your imagination<br>Artist: Pixel Pancho<br>Social Media: <br>Website: "
         },
@@ -5356,7 +5356,7 @@ var murals = [
         "name": "112 N 18th St Richmond, VA",
         "address": "112 N 18th St Richmond, VA",
         "latitude": 37.534287,
-        "longitude":  -77.426331,
+        "longitude": -77.426331,
         "description": {
             "__cdata": "<img src=\"https://doc-10-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/kv3ji85vba7dt7chdljbpn6krc/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALozUhVKZyKMK5xPq5kX5hQOF9HnizuE0lz1yVjZbNyDUz-Obu0Lb7v6TK1LZpwKoeavSMKWH-262ladQWsNgZnwOoxM2isFFJc9qQNJUURx_UJDXOS-rAXuWzRffWWqe8Fm4IQqne4If7BiIws_JfAD5_h3psSwW87w7-QaWn5GhU922i0QNEIJEFxlKQ4O3jqXfB301rMtomLKog8BtPvuFfdWLlAGXKVBtK-py1Ai_20uhnxrnbpQljT3JTuMgyefXhWJAUeJv6tFO4R4Qi1gNPzbRw?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 127<br>Specific Area: South wall. Across old Tiki Bob's<br>Description: Dog with honeycomb body and skull<br>Artist: PIXEL PANCHO<br>Social Media: <br>Website: "
         },
@@ -5400,7 +5400,7 @@ var murals = [
         "name": "111 N. 17th Street Richmond, VA",
         "address": "111 N. 17th Street Richmond, VA",
         "latitude": 37.534599,
-        "longitude":  -77.427423,
+        "longitude": -77.427423,
         "description": {
             "__cdata": "<img src=\"https://doc-0s-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/3copsbvkfiig4vi6autrc9h19c/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALoZe6JkZKoCiBu1Ru1TfYfJAxKtZsbkk--960HBL6QCvaxat1ud4DLgv9SI9T7luPVvAaIeTcHRI683jQnmSNQ8dwBNn7TGLUKKh93EMw0pLnggkhXIFG9SIMSnT7CmhJ4_dy3FycnOFnD1ZdaSD_AWig0U4lkH-p1-NEGeblVnwEpiU59UmzcNSl38h5SXxHljq4Bjup_ufh2n8tPlnTWMsrKaAFRNdSZoyLnAHnPWTBs_MBUx6auLgXKO4YVBOCJVvdTO1IEHacrMGTLAV0-PU_trqQ?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 128<br>Specific Area: Near Farmer's Market. North wall of Tech Head<br>Description: Fruits and veggies<br>Artist: Aryz<br>Social Media: <br>Website: "
         },
@@ -5444,7 +5444,7 @@ var murals = [
         "name": "1712 E Broad St. Richmond, VA",
         "address": "1712 E Broad St. Richmond, VA",
         "latitude": 37.535708,
-        "longitude":  -77.425459,
+        "longitude": -77.425459,
         "description": {
             "__cdata": "<img src=\"https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/58q6t13o9sadq6hf35s1tcrlqo/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALrqY65A9ZUVi-C5nS_C6TyJa_XRUPY7bdiTUAejeP0u2NhBWO01ACd6Dq1XrLQQ2P68q3aV1HnlPIhcsKx7t39A5SFjqsT0nsOg_vtKkkAcwF7GyQefu--QubobMtzel6q0oOD4VAiGzEHRk620M0Mlv-XZX-SKUX6CyU3k2PVY2B77znn-W8ZzzdrxK824oqjdDSNZfFJ5wsGZ57Yxm5me728Gcc-vHs_gFPUs25HROMh7opjFiSKEeXxSjim3EFexicwQSF36fujzB46ktiyhEng4Gg?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Number: 129<br>Specific Area: Front, east wall<br>Description: 1925 Co. Train. Eagle in hands<br>Artist: <br>Social Media: <br>Website: "
         },
@@ -5571,7 +5571,7 @@ var murals = [
         "name": "“It All Adds Up” - Calculator",
         "address": "21 S. Sheppard St. Richmond, VA",
         "latitude": 37.552874,
-        "longitude":  -77.478625,
+        "longitude": -77.478625,
         "description": {
             "__cdata": "<img src=\"https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/jgjiv5cu20ktcfvnv222agfuek/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALpk8MvgluO2K2b2OsdTFS4VRA_HFnlsCajn9cLty9hGWtJHUup4H7OgqOW6TNYltcvcZC719RCc0qI7mz3treAEWTeh-hLdSydgR93dOzXjKIthKvvmZVSE19icuiELXo9wmJ7tSBoK1HffmTO0XmMTWc-SgQ7NFs4HDFgu0oBDI8_DZ-3902ce_IIxIDEgWPrbPE8ldxek8KpAfEkKmuknAQXtfXaKHOwHL3JWCvXsZUDCgpDrieaNKZjgR6S7uajElAcs-KFInZTw9RR3T7orDDeUFw?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Location: 21 S. Sheppard St. Richmond, VA<br>Specific Area: Behind Dooley and Vicars Accounting<br>Artist: KaliVicarsArt<br>Social Media: <br>Website: "
         },
@@ -5940,7 +5940,7 @@ var murals = [
     {
         "name": "Blue and White Scenic Background",
         "address": "3000 W. Cary St. Richmond, VA",
-        "latitude":  37.552564,
+        "latitude": 37.552564,
         "longitude": -77.478925,
         "description": {
             "__cdata": "<img src=\"https://doc-08-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/r4j6uqgncvb67b5f5bk3gqairo/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALqovdqCLxft7yh4_rDX8Ou2UHWYHBMupThO9poUZm6y5xRQlEhmCXpnujD1Mp5sufBzltQ1EC9oAoXaxDi2dQwZrF1F2JQpbQo5bnNDG1lE3oJKoBYBTy8s-ohvQMCVnzDJFLfbz7NBr4U_OYIE2JkH0lmaUQWwl8MRHrv5pd6G9QnxfsHy7Umts5aP5uexpgz4y0HEeHfkf1Z5jAVQd3mNUgmvoGBcP6tPI0iIqeOiuVcbiVFqEW9TfiypxCxQHpn632Vilvxv4eqwAiX16pGZ1MThlg?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Location: 3000 W. Cary St. Richmond, VA<br>Specific Area: 2nd Floor. Richmond Sports Massage. East wall<br>Artist: HerrSuite<br>Social Media: <br>Website: "
@@ -5982,8 +5982,8 @@ var murals = [
     {
         "name": "“Hands Up, Don't Shoot” tribute to George Floyd",
         "address": "3311 W. Broad St. Richmond, VA",
-        "latitude":  37.567152,
-        "longitude":  -77.47618,
+        "latitude": 37.567152,
+        "longitude": -77.47618,
         "description": {
             "__cdata": "<img src=\"https://doc-0o-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/r8fj9cu0pf6voeg4usea2abl78/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALoaM4a7Ft839f9MvHcLwCjCF_HMnWZyWz49VlaqlB6AJTsbwsxt6gyFqJcuXgr2n3WRFgMEcQ7cTcNYn4PODPAUw2FgZdqVlqAsqjegzXOgq6sJO52vDwc9gcBKVXzqfmNiGwQ6Vgzu8ocxkZtTnxKPWVDy56Mj7FgKk_iVDaJrUw6A-7m3BmqKR8hl8hX1Vq-l5n2OlL3NZVIgRTmJ_UQucETAgfYm7UB1duR1uaN649-YQz8xva-5QgiOwb-n5zIzrOQUOoQTg-PvuOZ5In1tNYtJ7Q?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Location: 3311 W. Broad St. Richmond, VA<br>Specific Area: Next to CBS 6. West wall<br>Artist: Mending Walls RVA feat. Silly Genius and Nils Westergard<br>Social Media: <br>Website: "
         },
@@ -6024,8 +6024,8 @@ var murals = [
     {
         "name": "Black Lives Matter + Skater & Smash Racism",
         "address": "Treasure Island Community Skatepark",
-        "latitude":  37.532582,
-        "longitude":  -77.468631,
+        "latitude": 37.532582,
+        "longitude": -77.468631,
         "description": {
             "__cdata": "<img src=\"https://doc-0c-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/vhfq3li4hl7lh90agf3d6p30ic/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALpqW7xqzczJzDcIBAXZiB_z1NMtg2q2yovf7vxmQXacUBPu7Z-fc_eDz-I-XaBwaaaWMmdxPCsucbKRFGXAChRVh61oXLev3eilpsJDRTBd3yUc9EqhAzuKzIuvh0s0cOpO3j3yUZFr3jVc6a-iLkv5qIAqhh1-KHbSCT9YcThiFpi3yjgqfo5mgEitU059gy9x2o9x0bGqwPCjwqoVQUAzX6Tt6p7qL-H8_22nC7rO6arZNA79fCO6dd9fUOHfc6x67fiqgXEZDF4qveeA-crZJvLhwg?session=0&fife\" height=\"200\" width=\"auto\" /><br><br>Location: Treasure Island Community Skatepark<br>Specific Area: Quarter Pipe Extension & Quarter Pipe<br>Artist: Chimp<br>Social Media: <br>Website: <br><br><img src=\"https://doc-14-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/ukbtp15oh0k36er6m854mphitk/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALocEBdn5RSZynJuulEbBwstM3KXJK5biZ_6eIJDX1jhr_fgIP23x9GR-0g6v8LHzwx6djX4N_hmtyooFNEVevZneHc1HECzoYS6uwVi9c9plkui4hzFJ-NLA4_EZuxHY4UaoWlG_MPsuQCpLeel-QLQt15WMxRkoIflUBsy81aVEN-gWzE5BmV4xyZ4OZ1ISrFKe4RIRN2YIClG8EQFIQogeHmwfsPSniePNR8b_Dv0n548JblpZ_x092fq5YC6VDmS5FE5KEjifH3nXQ6mOE1bn5Dp_w?session=0&fife\" height=\"200\" width=\"auto\" /><br><br><img src=\"https://doc-00-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/17ea56qdte14gmnrvl25dfmbjo/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALoVmgwuHw5B3Y31wt_knVJ91rvRDj95o72hVJzIyOABTiEgDHFynxn4hVlQd2sAXXQ5KPz_ijLu_-tFAaQL5uAS58eCPDAWHHE6Sdw8M7vm7jMC0wRKaakzcaWVyPbSohZKYKcpnT4wN9vPVUnxuNeiPVIsfVsAhNr7YJOP84_irxNDaAM__mwtoEsUN4DkrCGvMs9wVwNMRvoay1QKx3aVj7hxkphwMnPiv4cA8VA3_YAlog9qEBhAds7jN4C6-UkYXtfUZ8U0sSXOfcX4Wm1nUjtVIA?session=0&fife\" height=\"200\" width=\"auto\" />"
         },
@@ -6066,7 +6066,7 @@ var murals = [
         }
     },
     {
-        "name":  "1950's Roadster",
+        "name": "1950's Roadster",
         "address": "3113 Floyd Ave. Richmond, VA 23221",
         "latitude": 37.555245,
         "longitude": -77.479924,

@@ -1,24 +1,23 @@
-const form = document.querySelector('#js-search-form');
-form.addEventListener('submit', handleSubmit);
+// const form = document.querySelector('#js-search-form');
+// form.addEventListener('submit', handleSubmit);
 
-function handleSubmit(event) {
-    // prevent page from reloading when form is submitted
-    event.preventDefault();
-    // get the value of the input field
-    const inputValue = document.querySelector('#js-search-input').value;
-    // remove whitespace from the input
-    const searchQuery = inputValue.trim();
-    // print `searchQuery` to the console
-    console.log(searchQuery);
-    searchWikipedia(searchQuery);
+// function handleSubmit(event) {
+//     // prevent page from reloading when form is submitted
+//     event.preventDefault();
+//     // get the value of the input field
+//     const inputValue = document.querySelector('#js-search-input').value;
+//     // remove whitespace from the input
+//     const searchQuery = inputValue.trim();
+//     // print `searchQuery` to the console
+//     console.log(searchQuery);
+//     searchWikipedia(searchQuery);
 /*
     try {
-  
+
         const results = await searchWikipedia(searchQuery);
     
         console.log(results);
-    
-      } catch (err) {
+    } catch (err) {
     
         console.log(err);
     
@@ -26,30 +25,27 @@ function handleSubmit(event) {
     
     }
     */
-}
-
+// }
 
 // searching wikipedia
-async function searchWikipedia(searchQuery) {
-    const endpoint = `https://en.wikipedia.org/w/api.php?action=query&list=search&prop=info&inprop=url&utf8=&format=json&origin=*&srlimit=20&srsearch=${searchQuery}`;
-    $.ajax({
-        url: endpoint,
-        method: "get"
-    }).then(function(response){
-        console.log(response);
-    });
-
-    /*
+// async function searchWikipedia(searchQuery) {
+//     const endpoint = `https://en.wikipedia.org/w/api.php?action=query&list=search&prop=info&inprop=url&utf8=&format=json&origin=*&srlimit=20&srsearch=${searchQuery}`;
+//     $.ajax({
+//         url: endpoint,
+//         method: "get"
+//     }).then(function(response){
+//         console.log(response);
+//     });
+/*
     const response = await fetch(endpoint);
     if (!response.ok) {
-      throw Error(response.statusText);
+throw Error(response.statusText);
     }
 
     const json = await response.json();
     console.log(json);
 */
-
-}
+// }
 
 document.addEventListener('DOMContentLoaded', function () {
     $(document).ready(function () {
@@ -80,8 +76,17 @@ $(document).ready(function () {
     // Capture and display artist website
     var artistWebsite = muralData[1].ExtendedData.Data[5].value;
 
+    //* ---------------------
+    //* Call functions
+    //* ---------------------
+    //Initializes map
     mapInit();
-    rvaSearch();
+    // Adds museums to the map from RVA Open Data API
+    rvaSearchMuseums();
+    // Adds parks to the map from RVA Open Data API
+    rvaSearchParks();
+    // Adds mural markers to the map along with popups
+    // Adds click event to each marker to pass lat/lon through to Yelp API call
     muralMarkers();
 
     //* ---------------------
@@ -113,7 +118,7 @@ $(document).ready(function () {
         for (var i = 0; i < muralData.length; i++) {
             var muralLat = muralData[i].latitude;
             var muralLon = muralData[i].longitude;
-            var muralImg = muralData[i].ExtendedData.Data[6].value.__cdata;
+            // var muralImg = muralData[i].ExtendedData.Data[6].value.__cdata;
             var artistName = muralData[i].ExtendedData.Data[3].value;
             var cdata = muralData[i].description.__cdata;
             // Create popup
@@ -131,8 +136,9 @@ $(document).ready(function () {
                     // Capture lat/long from clicked pin
                     var pinLat = this._latlng.lat;
                     var pinLon = this._latlng.lng;
-                    //* Pass pin lat/long to Yelp API call
+                    //* Pass pin lat/long to Yelp and Wiki API calls
                     yelpSearch(pinLat, pinLon);
+                    wikiSearch(pinLat, pinLon);
                     //* --------------------------
                     //* Populate DOM?
                     //* --------------------------
@@ -144,10 +150,10 @@ $(document).ready(function () {
     //* --------------------------
     //* APIs
     //* --------------------------
-    //* RVA Open Data Portal
+    //* RVA Open Data Portal - Parks
     // Key - 434uziup973kgkl6n6xqsplhf
     // key secret - 6bz7211gl06qj6z80bwdopeomuwnbrtv70ewemrhc9jjvla8c8
-    function rvaSearch() {
+    function rvaSearchParks() {
         $.ajax({
             url:
                 'https://data.richmondgov.com/resource/f7vy-k94i.json?functn=5000: Arts, entertainment, and recreation',
@@ -156,14 +162,14 @@ $(document).ready(function () {
                 $limit: 5000,
                 $$app_token: 'doEdXY4IrCn9anJakbK3Pgbpz',
             },
-        }).done(function (rvaResponse) {
-            rvaData = rvaResponse;
+        }).done(function (rvaParkResponse) {
+            rvaPData = rvaParkResponse;
             // Loop through each response and create a map marker for it, with a tooltip with its name
-            for (var r = 0; r < rvaData.length; r++) {
+            for (var r = 0; r < rvaPData.length; r++) {
                 // Capture name, lat and lon of each response
-                var lat = rvaData[r].location_1.latitude;
-                var lon = rvaData[r].location_1.longitude;
-                var name = rvaData[r].name;
+                var lat = rvaPData[r].location_1.latitude;
+                var lon = rvaPData[r].location_1.longitude;
+                var name = rvaPData[r].name;
                 var myIcon = L.icon({
                     iconUrl: 'assets/images/map-marker-icon.png',
                     iconSize: [15, 15],
@@ -176,7 +182,38 @@ $(document).ready(function () {
             }
         });
     }
-    // TODO: Tuck this in a click event (map pin) to call based on this.lat/lon
+
+    //* RVA Open Data Portal - Museums
+    function rvaSearchMuseums() {
+        $.ajax({
+            url:
+                'https://data.richmondgov.com/resource/f7vy-k94i.json?functn=5200: Museums and other special purpose recreational institutions',
+            type: 'GET',
+            data: {
+                $limit: 5000,
+                $$app_token: 'doEdXY4IrCn9anJakbK3Pgbpz',
+            },
+        }).done(function (rvaMuseumResponse) {
+            rvaMData = rvaMuseumResponse;
+            // Loop through each response and create a map marker for it, with a tooltip with its name
+            for (var r = 0; r < rvaMData.length; r++) {
+                // Capture name, lat and lon of each response
+                var lat = rvaMData[r].location_1.latitude;
+                var lon = rvaMData[r].location_1.longitude;
+                var name = rvaMData[r].name;
+                var myIcon = L.icon({
+                    iconUrl: 'assets/images/map-marker-icon.png',
+                    iconSize: [15, 15],
+                });
+                // Create a map marker for each response
+                L.marker([lat, lon], { icon: myIcon })
+                    .addTo(theMap)
+                    // Add a tooltip with the name of the response
+                    .bindTooltip(name);
+            }
+        });
+    }
+
     //* Call Yelp API
     function yelpSearch(lat, lon) {
         //! CORS-anywhere proxy causes notable lag here - takes a second to load this div
@@ -185,8 +222,8 @@ $(document).ready(function () {
         $('#yelpEl').empty();
         // Uses the lat and long of the clicked pin from Nominatim
         var yelpSettings = {
-            //TODO: Put a type filter here?
-            url: `https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?latitude=${lat}&longitude=${lon}&radius=500`,
+            //TODO: Put a type filter here? Adjust URL based on input?
+            url: `https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?latitude=${lat}&longitude=${lon}&radius=500&categories=bakeries,wineries,breweries,brewpubs,coffee,foodtrucks&sort_by=rating`,
             method: 'GET',
             headers: {
                 Authorization:
@@ -203,14 +240,50 @@ $(document).ready(function () {
                 var nearbyAddress =
                     yelpData.businesses[j].location.display_address[0];
                 var nearbyRate = yelpData.businesses[j].rating;
+                var nearbyURL = yelpData.businesses[j].url;
+                // Other data to use?
+                // var nearbyPhone = yelpData.businesses[j].display_phone;
+                //! Does image break the API?
+                var nearbyImg = yelpData.businesses[j].image_url;
                 // Displays top five results to the DOM
+                //! This isn't to say that this format works, more so just to show the data we can pull
                 $('#yelpEl').append(
-                    `<table><tr><td>${nearbyName}</td><td>${nearbyType}</td><td>${nearbyRate}</td><td>${nearbyAddress}</td></tr></table>`
+                    `<table><tr><th><a href="${nearbyURL}" target="_blank">${nearbyName}<a></th><td><img src="${nearbyImg}" width="150" height="auto"></td><td>${nearbyType}</td><td>${nearbyRate}</td><td>${nearbyAddress}</td></tr></table>`
+                    //
                 );
             }
         });
-        // --Request nearby attractions based on filters
     }
+
+    //* Call Wiki API
+    //TODO: Pass in neighborhood value from geolocation call, or find an API that will accept that as a search param and pass something back
+    function wikiSearch(lat, lon) {
+        var wikiSettings = {
+            url: `https://cors-anywhere.herokuapp.com/https://en.wikipedia.org/w/api.php?action=query&generator=geosearch&prop=coordinates|pageimages&ggscoord=${lat}|${lon}&format=json`,
+            method: 'GET',
+            timeout: 0,
+        };
+        $.ajax(wikiSettings).done(function (wikiResponse) {
+            console.log(wikiResponse);
+            var wikiData = wikiResponse;
+            // TODO: iframe the wiki page in?
+            // var wikiURL = wikiData.query.pages;
+            // $('#wikiFrame').attr('src', muralImg);
+            // for (var k = 0; k < 5; k++) {
+            //     var wikiName = wikiData.query.search[k].title;
+            //     var wikiSnippet = wikiData.query.search[k].snippet;
+            // }
+        });
+    }
+
+    // --Pass artist name through?
+    // --Request background
+
+    // for (var i = 0; i < muralData.length; i++) {
+    //     var muralImg = muralData[i].ExtendedData.Data[6].value.__cdata;
+    //     $('#unorderedList').append(
+    //         `<li><img src="${muralImg}"></li>`
+    //     );
 
     //! -----------------
     //! -----------------
@@ -321,38 +394,6 @@ $(document).ready(function () {
     //         });
     //     }
     // }
-
-    //* Call Wiki API
-    //TODO: Pass in neighborhood value from geolocation call, or find an API that will accept that as a search param and pass something back
-    // function wikiSearch(neighborhood) {
-    //     var wikiSettings = {
-    //         url: `https://cors-anywhere.herokuapp.com/https://en.wikipedia.org/w/api.php?action=query&prop=info&inprop=url&titles=${neighborhood}, Richmond, Virginia&format=json`,
-    //         method: 'GET',
-    //         timeout: 0,
-    //     };
-    //     $.ajax(wikiSettings).done(function (wikiResponse) {
-    //         console.log(wikiResponse);
-    //         var wikiData = wikiResponse;
-    //TODO: iframe the wiki page in?
-    // var wikiURL = wikiData.query.pages
-    // $('#wikiFrame').attr('src', muralImg);
-    // for (var k = 0; k < 5; k++) {
-
-    // var wikiName = wikiData.query.search[k].title;
-    // var wikiSnippet = wikiData.query.search[k].snippet;
-    // var nearbyAddress =
-    //     yelpData.businesses[j].location.display_address[0];
-    // var nearbyRate = yelpData.businesses[j].rating;
-    // Displays top five results to the DOM
-    // $('#wikiEl').append(
-    // `<table><tr><td>${wikiName}</td><td>${wikiSnippet}</td></tr></table>`
-    // );
-    // }
-    //     });
-    // }
-
-    // --Pass artist name through?
-    // --Request background
 
     //* Call Reverse Image Search
     // Uses the mural image from the JSON file as the search parameter
