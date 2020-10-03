@@ -3,7 +3,7 @@ body {
 }
   @font-face {
     font-family: fancyFont;
-    src: url(./assets/font/TheHistoriaDemo.ttf);
+    src: url(./font/TheHistoriaDemo.ttf);
   }
 
   .logoFont {
