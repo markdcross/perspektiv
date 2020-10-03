@@ -13,6 +13,15 @@ WHEN I click on a header
 THEN the corresponding information collapses
 SO that I can easily view the next location
 
-# Future Development
-- Resolve CORS issue in Yelp API call, remove call proxy
-  - Documentation indicates that front-end API calls via javascript are not authorized by Yelp, need alternative
+# APIs
+
+-   Nominatum for OpenStreetMap
+-   Yelp
+-   Wiki
+-   Reverse Image Search
+-   Forward reverse geocoding
+
+# Future Dev
+
+-   Resolve CORS issues and remove proxy to improve stability and performance
+
