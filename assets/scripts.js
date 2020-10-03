@@ -17,19 +17,9 @@ $(document).ready(function () {
     //* Global variables
     //* ---------------------
     var theMap;
-    //* Pull values from murals.json for API calls
     var muralData = murals;
-    // Capture and display mural address
-    var address = muralData[1].address;
-    // Capture and display mural number
-    var muralNum = muralData[1].ExtendedData.Data[0].value;
-    // Capture and display mural name
-    var muralName = muralData[1].name;
-    // Capture and display mural location
-    var muralLoc = muralData[1].ExtendedData.Data[1].value;
-
-    // Capture and display artist website
-    var artistWebsite = muralData[1].ExtendedData.Data[5].value;
+    muralNames = [];
+    muralImgs = [];
 
     //* ---------------------
     //* Call functions
@@ -66,28 +56,39 @@ $(document).ready(function () {
             }
         ).addTo(theMap);
     }
+
     //* ---------------------
     //* Add mural markers
     //* ---------------------
     function muralMarkers() {
         for (var i = 0; i < muralData.length; i++) {
+            //* Pull values from murals.json for API calls
+            var address = muralData[i].address;
+            var muralNum = muralData[i].ExtendedData.Data[0].value;
+            var muralName = muralData[i].name;
+            muralNames.push(muralName);
+            var muralLoc = muralData[i].ExtendedData.Data[1].value;
+            var artistWebsite = muralData[i].ExtendedData.Data[5].value;
             var muralLat = muralData[i].latitude;
             var muralLon = muralData[i].longitude;
             // var muralImg = muralData[i].ExtendedData.Data[6].value.__cdata;
             var artistName = muralData[i].ExtendedData.Data[3].value;
             var cdata = muralData[i].description.__cdata;
-            // Create popup
-            var popup = L.popup({
-                maxWidth: 5000,
-                keepInView: true,
-                className: 'mapPop',
-            }).setContent(`${cdata}`);
+            // console.log(muralIndex[i]);
+            // var popup = L.popup({
+            //     maxWidth: 5000,
+            //     keepInView: true,
+            //     className: 'mapPop',
+            // }).setContent(
+            //     `${muralName}${muralLoc}${artistName}${artistWebsite}`
+            // );
             // Place a marker for each mural from lat/lon
             L.marker([muralLat, muralLon], { riseOnHover: true })
                 //TODO: Image overflows popup, img is larger than map div
-                .bindPopup(popup)
+                // .bindPopup(popup)
                 // * Click event for map pins
                 .on('click', function (e) {
+                    // console.log(this);
                     // Capture lat/long from clicked pin
                     var pinLat = this._latlng.lat;
                     var pinLon = this._latlng.lng;
@@ -97,6 +98,12 @@ $(document).ready(function () {
                     //* --------------------------
                     //* Populate DOM?
                     //* --------------------------
+                    $('#muralName').html(muralName);
+
+                    console.log(this);
+                    // $('#muralLoc').text(muralLoc);
+                    // $('#muralArtist').text(artistName);
+                    // $('#muralContact').text(artistWebsite);
                 })
                 .addTo(theMap);
         }
@@ -174,7 +181,7 @@ $(document).ready(function () {
         //! CORS-anywhere proxy causes notable lag here - takes a second to load this div
         // TODO: Future: Add back-end support to fix CORS error
         // Clears the div for Yelp results
-        $('#yelpEl').empty();
+        $('#tab3').empty();
         // Uses the lat and long of the clicked pin from Nominatim
         var yelpSettings = {
             //TODO: Put a type filter here? Adjust URL based on input?
@@ -198,13 +205,11 @@ $(document).ready(function () {
                 var nearbyURL = yelpData.businesses[j].url;
                 // Other data to use?
                 // var nearbyPhone = yelpData.businesses[j].display_phone;
-                //! Does image break the API?
                 var nearbyImg = yelpData.businesses[j].image_url;
                 // Displays top five results to the DOM
                 //! This isn't to say that this format works, more so just to show the data we can pull
-                $('#yelpEl').append(
+                $('#tab3').append(
                     `<table><tr><th><a href="${nearbyURL}" target="_blank">${nearbyName}<a></th><td><img src="${nearbyImg}" width="150" height="auto"></td><td>${nearbyType}</td><td>${nearbyRate}</td><td>${nearbyAddress}</td></tr></table>`
-                    //
                 );
             }
         });
@@ -219,15 +224,18 @@ $(document).ready(function () {
             timeout: 0,
         };
         $.ajax(wikiSettings).done(function (wikiResponse) {
-            console.log(wikiResponse);
             var wikiData = wikiResponse;
             // TODO: iframe the wiki page in?
-            // var wikiURL = wikiData.query.pages;
-            // $('#wikiFrame').attr('src', muralImg);
-            // for (var k = 0; k < 5; k++) {
-            //     var wikiName = wikiData.query.search[k].title;
-            //     var wikiSnippet = wikiData.query.search[k].snippet;
-            // }
+            var wikiURL = wikiData.query.pages;
+            $('#muralWiki').attr('src', muralImg);
+            for (var k = 0; k < 5; k++) {
+                var wikiName = wikiData.query.search[k].title;
+                var wikiSnippet = wikiData.query.search[k].snippet;
+
+                $('#tab3').append(
+                    `<table><tr><th><a href="${nearbyURL}" target="_blank">${nearbyName}<a></th><td><img src="${nearbyImg}" width="150" height="auto"></td><td>${nearbyType}</td><td>${nearbyRate}</td><td>${nearbyAddress}</td></tr></table>`
+                );
+            }
         });
     }
 
