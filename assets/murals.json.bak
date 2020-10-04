@@ -3927,6 +3927,42 @@ var murals = [
         }
     },
     {
+        "name": "108 N 7th St. Richmond, VA",
+        "address": "108 N 7th St. Richmond, VA",
+        "latitude": 37.540376,
+        "longitude": -77.437076,
+        "description": {
+            "__cdata": "Number: 93<br>Specific Area: North wall<br>Description: Pop Art Crying Lady<br>Artist: D*FACE<br>Social Media: <br>Website: "
+        },
+        "styleUrl": "#icon-seq2-0-92-FF5252-labelson",
+        "ExtendedData": {
+            "Data": [
+                {
+                    "value": "93.0",
+                    "_name": "Number"
+                },
+                {
+                    "value": "North wall",
+                    "_name": "Specific Area"
+                },
+                {
+                    "value": "Pop Art Crying Lady",
+                    "_name": "Description"
+                },
+                {
+                    "value": "D*FACE",
+                    "_name": "Artist"
+                },
+                {
+                    "_name": "Social Media"
+                },
+                {
+                    "_name": "Website"
+                }
+            ]
+        }
+    },
+    {
         "name": "30 N 8th St. Richmond, VA",
         "address": "30 N 8th St. Richmond, VA",
         "latitude": 37.539538,
@@ -5779,6 +5815,41 @@ var murals = [
                         "__cdata": "https://doc-14-64-mymaps.googleusercontent.com/untrusted/hostedimage/eu6g64mterdev2kl51im39lbvg/er23nua6adndb3js4b96ddq5ts/1601130498500/YG7sw_Ardp6TjVMKCDnPrtHYy_GrqAdf/10485590891576421370/5AF2TALrIfyZNN4WskY3XL9QCkbEEWdG8MTx9QPmR-LgTGJWklgxAjUVvgF3TR7aU_Fk7y-eM1V-zbBnwR9sTINaOEYDek3E76Upt-a6lvD04ei1QCKMiENNp9pbxpLTGNIk-CmTzMbtcxHXN0TK4zcs0eIO6qlbrHErl_bChS2yDtMOc6tCEKVVeAiDHZv1AFwRH6oFK16i1YH11gUZOC6Vwc-EcrZ3S5zzUGvO0WvRAldwCfdo8oWYvpMbgeRb01x_7SxSTiGbYk-_hJb72-JR17fklNAuGZg?session=0&fife"
                     },
                     "_name": "gx_media_links"
+                }
+            ]
+        }
+    },
+    {
+        "name": "Trick or Treat Shielded Knights",
+        "address": "3320 Grayland Ave. Richmond, VA",
+        "latitude": 37.55284,
+        "longitude": -77.484911,
+        "description": {
+            "__cdata": "Location: 3320 Grayland Ave. Richmond, VA<br>Specific Area: Viewed in alley behind<br>Artist: <br>Social Media: <br>Website: "
+        },
+        "styleUrl": "#icon-1899-0288D1",
+        "ExtendedData": {
+            "Data": [
+                {
+                    "value": "138.0",
+                    "_name": "Number"
+                },
+                {
+                    "value": "3320 Grayland Ave. Richmond, VA",
+                    "_name": "Location"
+                },
+                {
+                    "value": "Viewed in alley behind",
+                    "_name": "Specific Area"
+                },
+                {
+                    "_name": "Artist"
+                },
+                {
+                    "_name": "Social Media"
+                },
+                {
+                    "_name": "Website"
                 }
             ]
         }

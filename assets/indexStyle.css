@@ -145,13 +145,13 @@ nav ul li {
 
 ul.gallery li {
   position: relative;
-  height: 40vh;
+  height: 30vh;
   flex-grow: 1;
 }
   
 ul.gallery li div{
     position: relative;
-    height: 40vh;
+    height: 30vh;
     flex-grow: 1;
 }
   
@@ -167,6 +167,24 @@ ul.gallery li:last-child {
   }
 
   @media only screen and (max-width: 601px) {
+    .logoFont {
+      top: 25px;
+    }
+
+    .lowLogo {
+      font-size: 6rem;
+      bottom: -20px;
+    }
+
+    .lowState {
+      width: 200px;
+      right: 10px;
+      bottom: 0px;
+    }
+
+  }
+
+    @media only screen and (max-width: 601px) {
     .logoFont {
       top: 25px;
     }

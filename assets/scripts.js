@@ -18,8 +18,9 @@ $(document).ready(function () {
     //* ---------------------
     var theMap;
     var muralData = murals;
+    console.log(muralData);
     muralNames = [];
-    muralImgs = [];
+    var muralImgs = new Object();
 
     //* ---------------------
     //* Call functions
@@ -62,6 +63,7 @@ $(document).ready(function () {
     //* ---------------------
     function muralMarkers() {
         for (var i = 0; i < muralData.length; i++) {
+            console.log(i);
             //* Pull values from murals.json for API calls
             var address = muralData[i].address;
             var muralNum = muralData[i].ExtendedData.Data[0].value;
@@ -71,7 +73,7 @@ $(document).ready(function () {
             var artistWebsite = muralData[i].ExtendedData.Data[5].value;
             var muralLat = muralData[i].latitude;
             var muralLon = muralData[i].longitude;
-            // var muralImg = muralData[i].ExtendedData.Data[6].value.__cdata;
+            muralImgs[i] = muralData[i].ExtendedData.Data[6].value.__cdata;
             var artistName = muralData[i].ExtendedData.Data[3].value;
             var cdata = muralData[i].description.__cdata;
             // console.log(muralIndex[i]);
@@ -83,12 +85,15 @@ $(document).ready(function () {
             //     `${muralName}${muralLoc}${artistName}${artistWebsite}`
             // );
             // Place a marker for each mural from lat/lon
-            L.marker([muralLat, muralLon], { riseOnHover: true })
+            L.marker([muralLat, muralLon], {id: i})
+
                 //TODO: Image overflows popup, img is larger than map div
                 // .bindPopup(popup)
                 // * Click event for map pins
                 .on('click', function (e) {
-                    // console.log(this);
+                    console.log(this.options.id);
+                    var murIndex = this.options.id;
+                    console.log(muralImgs[murIndex]);
                     // Capture lat/long from clicked pin
                     var pinLat = this._latlng.lat;
                     var pinLon = this._latlng.lng;
@@ -99,7 +104,7 @@ $(document).ready(function () {
                     //* Populate DOM?
                     //* --------------------------
                     $('#muralName').html(muralName);
-
+                    $('#muralMapShow').attr("src", muralImgs[murIndex])
                     console.log(this);
                     // $('#muralLoc').text(muralLoc);
                     // $('#muralArtist').text(artistName);
@@ -209,7 +214,7 @@ $(document).ready(function () {
                 // Displays top five results to the DOM
                 //! This isn't to say that this format works, more so just to show the data we can pull
                 $('#tab3').append(
-                    `<table><tr><th><a href="${nearbyURL}" target="_blank">${nearbyName}<a></th><td><img src="${nearbyImg}" width="150" height="auto"></td><td>${nearbyType}</td><td>${nearbyRate}</td><td>${nearbyAddress}</td></tr></table>`
+                    `<div class="row"><div class="col s3"><img src="${nearbyImg}" height="125px"></div><div class="col s2"><a href="${nearbyURL}" target="_blank">${nearbyName}</a></div><div class="col s2">${nearbyType}</div><div class="col s3">${nearbyAddress}</div></div><hr>`
                 );
             }
         });
