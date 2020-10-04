@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', function () {
-    $(document).ready(function () {
-        $('.collapsible').collapsible();
-    });
+    // $(document).ready(function () {
+    //     $('.collapsible').collapsible();
+    // });
 
-    $(document).ready(function () {
-        $('.modal').modal();
-    });
+    // $(document).ready(function () {
+    //     $('.modal').modal();
+    // });
 
     $(document).ready(function () {
         $('.tabs').tabs();
@@ -19,8 +19,13 @@ $(document).ready(function () {
     var theMap;
     var muralData = murals;
     console.log(muralData);
-    muralNames = [];
+    // muralNames = [];
     var muralImgs = new Object();
+    var muralNames = new Object();
+    var muralLocs = new Object();
+    var muralArtists = new Object();
+    var muralCont = new Object();
+
 
     //* ---------------------
     //* Call functions
@@ -67,15 +72,15 @@ $(document).ready(function () {
             //* Pull values from murals.json for API calls
             var address = muralData[i].address;
             var muralNum = muralData[i].ExtendedData.Data[0].value;
-            var muralName = muralData[i].name;
-            muralNames.push(muralName);
-            var muralLoc = muralData[i].ExtendedData.Data[1].value;
-            var artistWebsite = muralData[i].ExtendedData.Data[5].value;
+            // muralNames.push(muralName);
             var muralLat = muralData[i].latitude;
             var muralLon = muralData[i].longitude;
-            muralImgs[i] = muralData[i].ExtendedData.Data[6].value.__cdata;
-            var artistName = muralData[i].ExtendedData.Data[3].value;
             var cdata = muralData[i].description.__cdata;
+            muralImgs[i] = muralData[i].ExtendedData.Data[6].value.__cdata;
+            muralNames[i] = muralData[i].name;
+            muralLocs[i] = muralData[i].ExtendedData.Data[1].value;
+            muralArtists[i] = muralData[i].ExtendedData.Data[3].value;
+            muralCont[i] = muralData[i].ExtendedData.Data[5].value;
             // console.log(muralIndex[i]);
             // var popup = L.popup({
             //     maxWidth: 5000,
@@ -85,7 +90,11 @@ $(document).ready(function () {
             //     `${muralName}${muralLoc}${artistName}${artistWebsite}`
             // );
             // Place a marker for each mural from lat/lon
-            L.marker([muralLat, muralLon], {id: i})
+            var myIcon = L.icon({
+                iconUrl: 'assets/images/PinDrip3.png',
+                iconSize: [25, 35],
+            });
+            L.marker([muralLat, muralLon], {id: i, icon: myIcon})
 
                 //TODO: Image overflows popup, img is larger than map div
                 // .bindPopup(popup)
@@ -99,11 +108,14 @@ $(document).ready(function () {
                     var pinLon = this._latlng.lng;
                     //* Pass pin lat/long to Yelp and Wiki API calls
                     yelpSearch(pinLat, pinLon);
-                    wikiSearch(pinLat, pinLon);
+                    // wikiSearch(pinLat, pinLon);
                     //* --------------------------
                     //* Populate DOM?
                     //* --------------------------
-                    $('#muralName').html(muralName);
+                    $('#muralName').html(muralNames[murIndex]);
+                    $('#muralLoc').html(muralLocs[murIndex]);
+                    $('#muralArtist').html(muralArtists[murIndex]);
+                    $('#muralContact').html(muralCont[murIndex]);
                     $('#muralMapShow').attr("src", muralImgs[murIndex])
                     console.log(this);
                     // $('#muralLoc').text(muralLoc);
@@ -214,7 +226,7 @@ $(document).ready(function () {
                 // Displays top five results to the DOM
                 //! This isn't to say that this format works, more so just to show the data we can pull
                 $('#tab3').append(
-                    `<div class="row"><div class="col s3"><img src="${nearbyImg}" height="125px"></div><div class="col s2"><a href="${nearbyURL}" target="_blank">${nearbyName}</a></div><div class="col s2">${nearbyType}</div><div class="col s3">${nearbyAddress}</div></div><hr>`
+                    `<div class="row"><div class="col s6 m6 l3"><p><img src="${nearbyImg}" width="115px"></p></div><div class="col s6 m6 l3"><p><a href="${nearbyURL}" target="_blank">${nearbyName}</a></p></div><div class="col s6 m6 l3"><p>${nearbyType}</p></div><div class="col s6 m6 l3"><p>${nearbyAddress}</p></div></div><hr>`
                 );
             }
         });
@@ -222,27 +234,27 @@ $(document).ready(function () {
 
     //* Call Wiki API
     //TODO: Pass in neighborhood value from geolocation call, or find an API that will accept that as a search param and pass something back
-    function wikiSearch(lat, lon) {
-        var wikiSettings = {
-            url: `https://cors-anywhere.herokuapp.com/https://en.wikipedia.org/w/api.php?action=query&generator=geosearch&prop=coordinates|pageimages&ggscoord=${lat}|${lon}&format=json`,
-            method: 'GET',
-            timeout: 0,
-        };
-        $.ajax(wikiSettings).done(function (wikiResponse) {
-            var wikiData = wikiResponse;
-            // TODO: iframe the wiki page in?
-            var wikiURL = wikiData.query.pages;
-            $('#muralWiki').attr('src', muralImg);
-            for (var k = 0; k < 5; k++) {
-                var wikiName = wikiData.query.search[k].title;
-                var wikiSnippet = wikiData.query.search[k].snippet;
+    // function wikiSearch(lat, lon) {
+    //     var wikiSettings = {
+    //         url: `https://cors-anywhere.herokuapp.com/https://en.wikipedia.org/w/api.php?action=query&generator=geosearch&prop=coordinates|pageimages&ggscoord=${lat}|${lon}&format=json`,
+    //         method: 'GET',
+    //         timeout: 0,
+    //     };
+    //     $.ajax(wikiSettings).done(function (wikiResponse) {
+    //         var wikiData = wikiResponse;
+    //         // TODO: iframe the wiki page in?
+    //         var wikiURL = wikiData.query.pages;
+    //         $('#muralWiki').attr('src', muralImg);
+    //         for (var k = 0; k < 5; k++) {
+    //             var wikiName = wikiData.query.search[k].title;
+    //             var wikiSnippet = wikiData.query.search[k].snippet;
 
-                $('#tab3').append(
-                    `<table><tr><th><a href="${nearbyURL}" target="_blank">${nearbyName}<a></th><td><img src="${nearbyImg}" width="150" height="auto"></td><td>${nearbyType}</td><td>${nearbyRate}</td><td>${nearbyAddress}</td></tr></table>`
-                );
-            }
-        });
-    }
+    //             $('#tab3').append(
+    //                 `<table><tr><th><a href="${nearbyURL}" target="_blank">${nearbyName}<a></th><td><img src="${nearbyImg}" width="150" height="auto"></td><td>${nearbyType}</td><td>${nearbyRate}</td><td>${nearbyAddress}</td></tr></table>`
+    //             );
+    //         }
+    //     });
+    // }
 
     // --Pass artist name through?
     // --Request background
