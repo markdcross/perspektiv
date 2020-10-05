@@ -25,6 +25,8 @@ $(document).ready(function () {
     var muralLocs = new Object();
     var muralArtists = new Object();
     var muralCont = new Object();
+    var inboundMural = JSON.parse(localStorage.getItem("clickedMural"));
+    inboundMural = parseInt(inboundMural);
 
 
     //* ---------------------
@@ -39,10 +41,17 @@ $(document).ready(function () {
     // Adds mural markers to the map along with popups
     // Adds click event to each marker to pass lat/lon through to Yelp API call
     muralMarkers();
+console.log(inboundMural);
+    //This is for a default mural on page load
+    if (inboundMural === 0 || !inboundMural === NaN) {
+    yelpSearch(37.553722, -77.45656);
+    $('#muralName').html(muralNames[79]);
+    $('#muralLoc').html(muralLocs[79]);
+    $('#muralArtist').html(muralArtists[79]);
+    $('#muralContact').html(muralCont[79]);
+    $('#muralMapShow').attr("src", muralImgs[79]);
+    }
 
-    //* ---------------------
-    //* Initialize map
-    //* ---------------------
     // Creates the map on the page
     function mapInit() {
         // Map centers on Monroe Park
@@ -61,6 +70,7 @@ $(document).ready(function () {
                     'pk.eyJ1IjoibWFya2Rjcm9zcyIsImEiOiJja2ZwajI1ZDUyN2I4MnJtandkYXNjNXptIn0.mPbQse36k0Mm_rvvmVMAmQ',
             }
         ).addTo(theMap);
+
     }
 
     //* ---------------------
@@ -68,7 +78,6 @@ $(document).ready(function () {
     //* ---------------------
     function muralMarkers() {
         for (var i = 0; i < muralData.length; i++) {
-            console.log(i);
             //* Pull values from murals.json for API calls
             var address = muralData[i].address;
             var muralNum = muralData[i].ExtendedData.Data[0].value;
@@ -81,14 +90,17 @@ $(document).ready(function () {
             muralLocs[i] = muralData[i].ExtendedData.Data[1].value;
             muralArtists[i] = muralData[i].ExtendedData.Data[3].value;
             muralCont[i] = muralData[i].ExtendedData.Data[5].value;
-            // console.log(muralIndex[i]);
-            // var popup = L.popup({
-            //     maxWidth: 5000,
-            //     keepInView: true,
-            //     className: 'mapPop',
-            // }).setContent(
-            //     `${muralName}${muralLoc}${artistName}${artistWebsite}`
-            // );
+
+            if (inboundMural !== 0 && inboundMural === i) {
+                yelpSearch(muralLat, muralLon);
+                $('#muralName').html(muralNames[inboundMural]);
+                $('#muralLoc').html(muralLocs[inboundMural]);
+                $('#muralArtist').html(muralArtists[inboundMural]);
+                $('#muralContact').html(muralCont[inboundMural]);
+                $('#muralMapShow').attr("src", muralImgs[inboundMural])
+                localStorage.setItem('clickedMural', 0);
+            }
+
             // Place a marker for each mural from lat/lon
             var myIcon = L.icon({
                 iconUrl: 'assets/images/PinDrip3.png',
