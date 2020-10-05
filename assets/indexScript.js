@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //* Pull values from murals.json for API calls
         muralImgs[i] = murals[i].ExtendedData.Data[6].value.__cdata;
 
-        $("#muralGallery").prepend("<li><img class='materialboxed' src='"+muralImgs[i]+"' loading='lazy'><a class='btn-floating imgBtn'><img src='assets/images/PinDrip3circle.png'></a></li>");
+        $("#muralGallery").prepend("<li><img class='materialboxed' src='"+muralImgs[i]+"' loading='lazy'><a href='mapview.html' class='btn-floating imgBtn'><img src='assets/images/PinDrip3circle.png'></a></li>");
         // $('#muralMapShow').attr("src", muralImgs[murIndex])
         console.log(muralImgs[i]);
 

@@ -167,9 +167,9 @@ ul.gallery li:last-child {
     flex-grow: 10;
   }
 
-  @media only screen and (max-width: 601px) {
+  @media only screen and (max-width: 3000px) {
     .logoFont {
-      top: 25px;
+      top: 30px;
     }
 
     .lowLogo {
@@ -189,18 +189,6 @@ ul.gallery li:last-child {
     .logoFont {
       top: 25px;
     }
-
-    .lowLogo {
-      font-size: 6rem;
-      bottom: -20px;
-    }
-
-    .lowState {
-      width: 200px;
-      right: 10px;
-      bottom: 0px;
-    }
-
   }
 
   /* Portrait */
