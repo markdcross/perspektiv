@@ -120,6 +120,7 @@ blockquote {
     background-color: #343434;
     margin-top: -15px;
     padding-top: 0px;
+    height: 55px;
   }
 
 hr {
@@ -131,16 +132,12 @@ hr {
     position: relative;
     z-index: 400;
     right: -50px;
-    bottom: 66px;
+    bottom: 82px;
     width: 80px;
   }
 
   .footRow {
     margin-bottom: 0px;
-  }
-
-  .page-footer {
-      height: 38px;
   }
 
   .page-footer .footer-copyright {
