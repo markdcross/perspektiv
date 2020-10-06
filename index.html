@@ -2,18 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
     <link href="./assets/indexStyle.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <title>P E R S P E K T I V</title>
 </head>
 <body class="animBKG">
+    <!-- Floating VA state and RVA in the lower right -->
     <img src="./assets/images/VA.png" class="lowState">
     <div class="brand-logo lowLogo">RVA</div>
 
+    <!-- Nav bar -->
     <header>
         <div class="navbar-fixed">
             <nav>
@@ -27,24 +29,25 @@
                 </div>
             </nav>
         </div>
-    </header>   
-    
-<main>
-    <ul id="muralGallery" class="gallery">
-        <li></li>
-    </ul>
-</main>
-<footer class="page-footer">
-    <div class="footer-content">
-            &nbsp;&nbsp;&nbsp;© 2020 Copyright Thunder Domes <img id="teamLogo" src="./assets/images/Tdface900T.png" width="40px">
-    </div>
-</footer>
-    <!-- <script src="./assets/murals.json"></script> -->
+    </header>
+
+    <!-- Mural Gallery -->
+    <main>
+        <ul id="muralGallery" class="gallery">
+            <li></li>
+        </ul>
+    </main>
+
+    <!-- Footer section -->
+    <footer class="page-footer">
+        <div class="footer-content">
+                &nbsp;&nbsp;&nbsp;© 2020 Copyright Thunder Domes <img id="teamLogo" src="./assets/images/Tdface900T.png" width="40px">
+        </div>
+    </footer>
+
     <script type="text/javascript" src=./assets/murals.json></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="./assets/indexScript.js"></script>
-    <!-- <script src="./assets/scripts.js"></script> -->
 
-
-    </body>
-    </html>
+</body>
+</html>
