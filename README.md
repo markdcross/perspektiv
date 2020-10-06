@@ -1,6 +1,7 @@
 # PERSPEKTIV
 
-Get to know Richmond through its murals
+Get to know Richmond through its murals and food
+
 https://markdcross.github.io/perspektiv/
 
 ## User Story
