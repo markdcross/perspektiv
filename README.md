@@ -18,12 +18,13 @@ SO I can learn and appreciate Richmond culture
 
 ### APIs and Libraries
 -   jQuery
--   Nominatum 
+-   Materialize CSS 
+-   Leaflet
 -   OpenStreetMap
 -   Mapbox
--   Leaflet
 -   Yelp
 -   City of Richmond Open Data Portal
+-   Map of Richmond Murals JSON
 
 ## Functionality
 ```
@@ -31,7 +32,7 @@ GIVEN a gallery view of RVA murals
 WHEN I click on an image
 THEN the image expands and focuses in via a lightbox
 WHEN I click on the pin in the top left corner of a mural
-THEN the mural I selected in saved to local storage and I'm taken to the map view with the selected mural identified
+THEN the mural I selected is saved to local storage and I'm taken to the map view with the selected mural identified
 WHEN I click or hover over the small markers on the map
 THEN I am presented with additional location information
 WHEN I click on the image of the mural in the map view
@@ -55,7 +56,7 @@ This is likely best served by replacing the Yelp API outright. This will allow u
 
 **Establish profiles for artists**
 
-Allowing artists to set up a portfolio adds a new level of depth and engagement to Perspektiv. Providing an opportunity to communcate, further share their creations, and develop their personal brand increases the "stickiness" of the app as well as its benefit to the community. This also introduces the idea of a self-clensing database of mural and artist information. 
+Allowing artists to set up a portfolio adds a new level of depth and engagement to Perspektiv. Providing an opportunity to communcate, further share their creations, and develop their personal brand increases the "stickiness" of the app as well as its benefit to the community. This also introduces the idea of a self-cleansing database of mural and artist information. 
 
 **Establish profiles for businesses**
 
