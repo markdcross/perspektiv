@@ -25,3 +25,6 @@ SO that I can easily view the next location
 
 -   Resolve CORS issues and remove proxy to improve stability and performance
 
+# Brought to you by
+The Thunderdomes
+![Logo](./assets/images/Tdface900T.png)
