@@ -161,6 +161,7 @@ ul.gallery li:last-child {
     height: auto;
     width: 100%;
   }
+  
   img {
     width: 100%;
     max-height: 75vh;

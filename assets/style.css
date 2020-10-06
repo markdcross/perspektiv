@@ -108,25 +108,12 @@ blockquote {
     background-color: #343434;
     margin-top: -15px;
     padding-top: 0px;
-    height: 55px;
   }
 
 hr {
     border-style: solid;
     border-color: hotpink;
 }
-
-.lowState {
-    position: relative;
-    z-index: 400;
-    right: -50px;
-    bottom: 113px;
-    width: 80px;
-  }
-
-  .footRow {
-    margin-bottom: 0px;
-  }
 
   .page-footer .footer-copyright {
       overflow: visible;
@@ -140,30 +127,20 @@ hr {
 
 @media only screen and (max-width: 601px) {
     .logoFont {
-      top: 20px;
+        top: 20px;
     }
-
-    /* .lowLogo {
-      font-size: 6rem;
-      bottom: -20px;
-    }
-
-    .lowState {
-      width: 200px;
-      right: 10px;
-      bottom: 0px;
-    } */
-
   }
 
-  @media only screen and (max-width: 800px) {
-     /* .lowLogo {
-      font-size: 6rem;
-      bottom: -20px;
-    } */
-
-    .lowState {
-        right: 20px;
+  @media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+    #teamLogo {
+        width: 20px;
     }
 
+    .logoFont {
+        font-size: 4.5rem;
+    }
+
+    .card .card-title {
+        font-size: 3.5rem;
+    }
   }
