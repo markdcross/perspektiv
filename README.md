@@ -1,4 +1,4 @@
-# PERSPEKTIV
+![Logo](./assets/images/PerspektivLogo.png)
 
 Get to know the beautifully weird city of Richmond through its murals and food via a web application integrating multiple server-side APIs to display information about the city's art and food scenes.
 
