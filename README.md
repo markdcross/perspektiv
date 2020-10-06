@@ -31,7 +31,7 @@ GIVEN a gallery view of RVA murals
 WHEN I click on an image
 THEN the image expands and focuses in via a lightbox
 WHEN I click on the pin in the top left corner of a mural
-THEN I'm taken to the map view with the selected mural identified
+THEN the mural I selected in saved to local storage and I'm taken to the map view with the selected mural identified
 WHEN I click or hover over the small markers on the map
 THEN I am presented with additional location information
 WHEN I click on the image of the mural in the map view
@@ -69,6 +69,11 @@ In addition to the above data and stability enhancements, there are a number of 
 Repo: https://github.com/markdcross/perspektiv
 
 Deployed App: https://markdcross.github.io/perspektiv/
+
+![Mural screenshot](./assets/images/muralScreenshot.png)
+![Map screenshot](./assets/images/mapScreenshot.png)
+![Artist screenshot](./assets/images/artistScreenshot.png)
+![Around the corner screenshot](./assets/images/atcScreenshot.png)
 
 ## Brought to you by
 - [Danny Fraley](https://github.com/dannyfraley "Visit Danny's GitHub")
