@@ -65,14 +65,19 @@ Similarly, Allowing local businesses to set up profiles gives them better contro
 
 In addition to the above data and stability enhancements, there are a number of additional features that we would like to include moving forward. Further refining our local storage to include the ability to track a user's scroll through the gallery view and save their place and establishing a "favorites" list of murals. We would also like to continue to enhance the user experience by introducing a pin drop animation and highlighting the current mural location on the map.
 
-# Brought to you by
+## Screenshots and links
+Repo: https://github.com/markdcross/perspektiv
+
+Deployed App: https://markdcross.github.io/perspektiv/
+
+## Brought to you by
 - [Danny Fraley](https://github.com/dannyfraley "Visit Danny's GitHub")
 - [Roberto Rubet](https://github.com/Bertodemus "Visit Berto's GitHub")
 - [Javonte Tuppince](https://github.com/Tuppince24 "Visit Javonte's GitHub")
 - [Mark Cross](https://github.com/markdcross "Visit Mark's GitHub")
 ![Logo](./assets/images/Tdface900T.png)
 
-# License
+## License
 MIT License
 
 Copyright (c) 2020 Mark Cross, Danny Fraley, Javonte Tuppince, Roberto Rubet
