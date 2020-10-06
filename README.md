@@ -1,11 +1,11 @@
 # PERSPEKTIV
 
-Get to know Richmond through its murals and food
+Get to know the beautifully weird city of Richmond through its murals and food
 
 https://markdcross.github.io/perspektiv/
 
 ## User Story
-It's a beautiful day and you want to explore RVA and appreciate what the city has to offer. We have developed an app to help easily explore and learn about this amazingly weird city
+It's a beautiful day and you want to explore RVA and appreciate what the city has to offer. We have developed an app to help easily explore and learn about this amazingly quirky city
 ``` 
 AS a Richmonder and art enthusiast 
 I am proud of my city and appreciate its creativity and artistic expression
@@ -45,7 +45,25 @@ SO that I can easily establish a plan for the day
 
 ## Future Dev
 
--   Resolve CORS issues and remove proxy to improve stability and performance
+### API Enhancements
+
+**Resolve CORS issues and remove proxy to improve stability and performance**
+
+This is likely best served by replacing the Yelp API outright. This will allow us to utilize an API that doesn't have CORS conflicts, but also one that is more more community friendly (allowing us to access the restaurant's information directly, instead of linking to the Yelp database, for example). Zomato is currently the leading option.
+
+### Improved community
+
+**Establish profiles for artists**
+
+Allowing artists to set up a portfolio adds a new level of depth and engagement to Perspektiv. Providing an opportunity to communcate, further share their creations, and develop their personal brand increases the "stickiness" of the app as well as its benefit to the community. This also introduces the idea of a self-clensing database of mural and artist information. 
+
+**Establish profiles for businesses**
+
+Similarly, Allowing local businesses to set up profiles gives them better control of how their business is percieved and engaged with, further engaging the user and providing additional userfulness. 
+
+### Additional functionality
+
+In addition to the above data and stability enhancements, there are a number of additional features that we would like to include moving forward. Further refining our local storage to include the ability to track a user's scroll through the gallery view and save their place and establishing a "favorites" list of murals. We would also like to continue to enhance the user experience by introducing a pin drop animation and highlighting the current mural location on the map.
 
 # Brought to you by
 - [Danny Fraley](https://github.com/dannyfraley "Visit Danny's GitHub")
