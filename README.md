@@ -4,7 +4,7 @@
 
 Get to know the beautifully weird city of Richmond through its murals and food via a web application integrating multiple server-side APIs to display information about the city's art and food scenes.
 
-https://markdcross.github.io/perspektiv/
+[Check out the deployed site here](https://markdcross.github.io/perspektiv/)
 
 ## User Story
 It's a beautiful day and you want to explore RVA and appreciate what the city has to offer. We have developed an app to help easily explore and learn about this amazingly quirky city.
